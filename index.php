@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <title>Info windows</title>
+    <title>CS Maps</title>
     <style>
       html, body {
         height: 100%;
@@ -2706,7 +2706,22 @@ var school149 = {lat: 39.628816, lng: -104.781265};
         infowindow149.open(map, marker149);
       });
 
-
+var school150 = {lat: 40.007740, lng: -105.255533};
+    var contentString150 = '<div id="credits">CS Learning and Kids<br/>Credits: Ben Shapiro<br/>Abhijit Suresh<br/>Layne Hubbard<br/>Alex Gendreau<br/>Matt Bubernak<br/>';
+    var infowindow150 = new google.maps.InfoWindow({
+        content: contentString150
+      });
+    var image150 = {
+      url: 'img/1000.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker150 = new google.maps.Marker({
+        position: school150,
+        map: map,
+        title: 'University of Colorado, Boulder',
+        icon: image150
+      });   marker150.addListener('click', function() {
+        infowindow150.open(map, marker150);
+      });
 
 
 

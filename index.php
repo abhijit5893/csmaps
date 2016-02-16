@@ -25,15 +25,19 @@
         center: denver
       });
 
-    var school1 = {lat: 39.616604, lng: -105.067432};
+  var school1 = {lat: 39.616604, lng: -105.067432};
     var contentString1 = '<div id="school1" name="Grant Ranch Middle Ranch">Name: Grant Ranch Middle Ranch<br/>Class: 1<br/>Minority: 63<br/>Free/DiscountedLunch: 52</div>';
     var infowindow1 = new google.maps.InfoWindow({
         content: contentString1
       });
-    var marker1 = new google.maps.Marker({
+    var image1 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker1 = new google.maps.Marker({
         position: school1,
         map: map,
-        title: 'Grant Ranch Middle Ranch'
+        title: 'Grant Ranch Middle Ranch',
+        icon: image1
       });   marker1.addListener('click', function() {
         infowindow1.open(map, marker1);
       });
@@ -44,10 +48,14 @@ var school2 = {lat: 39.878664, lng: -104.682105};
     var infowindow2 = new google.maps.InfoWindow({
         content: contentString2
       });
-    var marker2 = new google.maps.Marker({
+    var image2 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker2 = new google.maps.Marker({
         position: school2,
         map: map,
-        title: 'Martin Luther King Jr Early College'
+        title: 'Martin Luther King Jr Early College',
+        icon: image2
       });   marker2.addListener('click', function() {
         infowindow2.open(map, marker2);
       });
@@ -58,10 +66,14 @@ var school3 = {lat: 39.755812, lng: -104.968091};
     var infowindow3 = new google.maps.InfoWindow({
         content: contentString3
       });
-    var marker3 = new google.maps.Marker({
+    var image3 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker3 = new google.maps.Marker({
         position: school3,
         map: map,
-        title: 'Whittier K-8'
+        title: 'Whittier K-8',
+        icon: image3
       });   marker3.addListener('click', function() {
         infowindow3.open(map, marker3);
       });
@@ -72,10 +84,14 @@ var school4 = {lat: 39.804295, lng: -105.020676};
     var infowindow4 = new google.maps.InfoWindow({
         content: contentString4
       });
-    var marker4 = new google.maps.Marker({
+    var image4 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker4 = new google.maps.Marker({
         position: school4,
         map: map,
-        title: 'Valley View K-8'
+        title: 'Valley View K-8',
+        icon: image4
       });   marker4.addListener('click', function() {
         infowindow4.open(map, marker4);
       });
@@ -86,10 +102,14 @@ var school5 = {lat: 39.668252, lng: -105.096661};
     var infowindow5 = new google.maps.InfoWindow({
         content: contentString5
       });
-    var marker5 = new google.maps.Marker({
+    var image5 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker5 = new google.maps.Marker({
         position: school5,
         map: map,
-        title: 'Henry World Middle School'
+        title: 'Henry World Middle School',
+        icon: image5
       });   marker5.addListener('click', function() {
         infowindow5.open(map, marker5);
       });
@@ -100,10 +120,14 @@ var school6 = {lat: 39.692876, lng: -104.909685};
     var infowindow6 = new google.maps.InfoWindow({
         content: contentString6
       });
-    var marker6 = new google.maps.Marker({
+    var image6 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker6 = new google.maps.Marker({
         position: school6,
         map: map,
-        title: 'Denver Green School'
+        title: 'Denver Green School',
+        icon: image6
       });   marker6.addListener('click', function() {
         infowindow6.open(map, marker6);
       });
@@ -114,10 +138,14 @@ var school7 = {lat: 39.878664, lng: -104.682105};
     var infowindow7 = new google.maps.InfoWindow({
         content: contentString7
       });
-    var marker7 = new google.maps.Marker({
+    var image7 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker7 = new google.maps.Marker({
         position: school7,
         map: map,
-        title: 'Pitt Waller K-8'
+        title: 'Pitt Waller K-8',
+        icon: image7
       });   marker7.addListener('click', function() {
         infowindow7.open(map, marker7);
       });
@@ -128,10 +156,14 @@ var school8 = {lat: 39.769812, lng: -105.014832};
     var infowindow8 = new google.maps.InfoWindow({
         content: contentString8
       });
-    var marker8 = new google.maps.Marker({
+    var image8 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker8 = new google.maps.Marker({
         position: school8,
         map: map,
-        title: 'Bryant Webster K-8'
+        title: 'Bryant Webster K-8',
+        icon: image8
       });   marker8.addListener('click', function() {
         infowindow8.open(map, marker8);
       });
@@ -142,10 +174,14 @@ var school9 = {lat: 39.732746, lng: -104.971012};
     var infowindow9 = new google.maps.InfoWindow({
         content: contentString9
       });
-    var marker9 = new google.maps.Marker({
+    var image9 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker9 = new google.maps.Marker({
         position: school9,
         map: map,
-        title: 'Morey Middle School'
+        title: 'Morey Middle School',
+        icon: image9
       });   marker9.addListener('click', function() {
         infowindow9.open(map, marker9);
       });
@@ -156,10 +192,14 @@ var school10 = {lat: 39.675127, lng: -104.968091};
     var infowindow10 = new google.maps.InfoWindow({
         content: contentString10
       });
-    var marker10 = new google.maps.Marker({
+    var image10 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker10 = new google.maps.Marker({
         position: school10,
         map: map,
-        title: 'Grant Beacon Middle Scool'
+        title: 'Grant Beacon Middle Scool',
+        icon: image10
       });   marker10.addListener('click', function() {
         infowindow10.open(map, marker10);
       });
@@ -170,10 +210,14 @@ var school11 = {lat: 39.692876, lng: -104.909685};
     var infowindow11 = new google.maps.InfoWindow({
         content: contentString11
       });
-    var marker11 = new google.maps.Marker({
+    var image11 = {
+      url: 'img/2.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker11 = new google.maps.Marker({
         position: school11,
         map: map,
-        title: 'George Washington'
+        title: 'George Washington',
+        icon: image11
       });   marker11.addListener('click', function() {
         infowindow11.open(map, marker11);
       });
@@ -184,10 +228,14 @@ var school12 = {lat: 39.611793, lng: -104.950567};
     var infowindow12 = new google.maps.InfoWindow({
         content: contentString12
       });
-    var marker12 = new google.maps.Marker({
+    var image12 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker12 = new google.maps.Marker({
         position: school12,
         map: map,
-        title: 'West Middle School'
+        title: 'West Middle School',
+        icon: image12
       });   marker12.addListener('click', function() {
         infowindow12.open(map, marker12);
       });
@@ -198,10 +246,14 @@ var school13 = {lat: 39.665649, lng: -104.886328};
     var infowindow13 = new google.maps.InfoWindow({
         content: contentString13
       });
-    var marker13 = new google.maps.Marker({
+    var image13 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker13 = new google.maps.Marker({
         position: school13,
         map: map,
-        title: 'Hamilton Middle School'
+        title: 'Hamilton Middle School',
+        icon: image13
       });   marker13.addListener('click', function() {
         infowindow13.open(map, marker13);
       });
@@ -212,10 +264,14 @@ var school14 = {lat: 39.912247, lng: -105.003146};
     var infowindow14 = new google.maps.InfoWindow({
         content: contentString14
       });
-    var marker14 = new google.maps.Marker({
+    var image14 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker14 = new google.maps.Marker({
         position: school14,
         map: map,
-        title: 'Silver Hills Middle'
+        title: 'Silver Hills Middle',
+        icon: image14
       });   marker14.addListener('click', function() {
         infowindow14.open(map, marker14);
       });
@@ -226,10 +282,14 @@ var school15 = {lat: 39.731698, lng: -104.921364};
     var infowindow15 = new google.maps.InfoWindow({
         content: contentString15
       });
-    var marker15 = new google.maps.Marker({
+    var image15 = {
+      url: 'img/2.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker15 = new google.maps.Marker({
         position: school15,
         map: map,
-        title: 'Hill campus of arts & sciences'
+        title: 'Hill campus of arts & sciences',
+        icon: image15
       });   marker15.addListener('click', function() {
         infowindow15.open(map, marker15);
       });
@@ -240,10 +300,14 @@ var school16 = {lat: 39.769812, lng: -105.014832};
     var infowindow16 = new google.maps.InfoWindow({
         content: contentString16
       });
-    var marker16 = new google.maps.Marker({
+    var image16 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker16 = new google.maps.Marker({
         position: school16,
         map: map,
-        title: 'Skinner Middle'
+        title: 'Skinner Middle',
+        icon: image16
       });   marker16.addListener('click', function() {
         infowindow16.open(map, marker16);
       });
@@ -254,10 +318,14 @@ var school17 = {lat: 39.696161, lng: -105.038208};
     var infowindow17 = new google.maps.InfoWindow({
         content: contentString17
       });
-    var marker17 = new google.maps.Marker({
+    var image17 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker17 = new google.maps.Marker({
         position: school17,
         map: map,
-        title: 'Kepner Middle'
+        title: 'Kepner Middle',
+        icon: image17
       });   marker17.addListener('click', function() {
         infowindow17.open(map, marker17);
       });
@@ -268,10 +336,14 @@ var school18 = {lat: 39.804295, lng: -105.020676};
     var infowindow18 = new google.maps.InfoWindow({
         content: contentString18
       });
-    var marker18 = new google.maps.Marker({
+    var image18 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker18 = new google.maps.Marker({
         position: school18,
         map: map,
-        title: 'Scott Carpenter'
+        title: 'Scott Carpenter',
+        icon: image18
       });   marker18.addListener('click', function() {
         infowindow18.open(map, marker18);
       });
@@ -282,10 +354,14 @@ var school19 = {lat: 39.804295, lng: -105.020676};
     var infowindow19 = new google.maps.InfoWindow({
         content: contentString19
       });
-    var marker19 = new google.maps.Marker({
+    var image19 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker19 = new google.maps.Marker({
         position: school19,
         map: map,
-        title: 'Ranum Middle'
+        title: 'Ranum Middle',
+        icon: image19
       });   marker19.addListener('click', function() {
         infowindow19.open(map, marker19);
       });
@@ -296,10 +372,14 @@ var school20 = {lat: 39.647845, lng: -105.04113};
     var infowindow20 = new google.maps.InfoWindow({
         content: contentString20
       });
-    var marker20 = new google.maps.Marker({
+    var image20 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker20 = new google.maps.Marker({
         position: school20,
         map: map,
-        title: 'College View Middle'
+        title: 'College View Middle',
+        icon: image20
       });   marker20.addListener('click', function() {
         infowindow20.open(map, marker20);
       });
@@ -310,10 +390,14 @@ var school21 = {lat: 39.778133, lng: -104.874651};
     var infowindow21 = new google.maps.InfoWindow({
         content: contentString21
       });
-    var marker21 = new google.maps.Marker({
+    var image21 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker21 = new google.maps.Marker({
         position: school21,
         map: map,
-        title: 'DSST Stapleton'
+        title: 'DSST Stapleton',
+        icon: image21
       });   marker21.addListener('click', function() {
         infowindow21.open(map, marker21);
       });
@@ -324,10 +408,14 @@ var school22 = {lat: 39.700784, lng: -105.003146};
     var infowindow22 = new google.maps.InfoWindow({
         content: contentString22
       });
-    var marker22 = new google.maps.Marker({
+    var image22 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker22 = new google.maps.Marker({
         position: school22,
         map: map,
-        title: 'Kipp Sunshine Peak Academy'
+        title: 'Kipp Sunshine Peak Academy',
+        icon: image22
       });   marker22.addListener('click', function() {
         infowindow22.open(map, marker22);
       });
@@ -338,10 +426,14 @@ var school23 = {lat: 39.738037, lng: -105.026519};
     var infowindow23 = new google.maps.InfoWindow({
         content: contentString23
       });
-    var marker23 = new google.maps.Marker({
+    var image23 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker23 = new google.maps.Marker({
         position: school23,
         map: map,
-        title: 'Manny Martinez Middle School'
+        title: 'Manny Martinez Middle School',
+        icon: image23
       });   marker23.addListener('click', function() {
         infowindow23.open(map, marker23);
       });
@@ -352,10 +444,14 @@ var school24 = {lat: 39.755812, lng: -104.968091};
     var infowindow24 = new google.maps.InfoWindow({
         content: contentString24
       });
-    var marker24 = new google.maps.Marker({
+    var image24 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker24 = new google.maps.Marker({
         position: school24,
         map: map,
-        title: 'Cole Middle'
+        title: 'Cole Middle',
+        icon: image24
       });   marker24.addListener('click', function() {
         infowindow24.open(map, marker24);
       });
@@ -366,24 +462,32 @@ var school25 = {lat: 39.696161, lng: -105.038208};
     var infowindow25 = new google.maps.InfoWindow({
         content: contentString25
       });
-    var marker25 = new google.maps.Marker({
+    var image25 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker25 = new google.maps.Marker({
         position: school25,
         map: map,
-        title: 'Abraham Lincoln High School'
+        title: 'Abraham Lincoln High School',
+        icon: image25
       });   marker25.addListener('click', function() {
         infowindow25.open(map, marker25);
       });
 
 
 var school26 = {lat: 39.646708, lng: -105.087892};
-    var contentString26 = '<div id="school26" name="D\'Evelyn Junior School">Name: D\'Evelyn Junior School<br/>Class: 0<br/>Minority: 31.2<br/>Free/DiscountedLunch: 24.8</div>';
+    var contentString26 = '<div id="school26" name="D Evelyn Junior School">Name: D Evelyn Junior School<br/>Class: 0<br/>Minority: 31.2<br/>Free/DiscountedLunch: 24.8</div>';
     var infowindow26 = new google.maps.InfoWindow({
         content: contentString26
       });
-    var marker26 = new google.maps.Marker({
+    var image26 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker26 = new google.maps.Marker({
         position: school26,
         map: map,
-        title: 'D\'Evelyn Junior School'
+        title: 'D Evelyn Junior School',
+        icon: image26
       });   marker26.addListener('click', function() {
         infowindow26.open(map, marker26);
       });
@@ -394,10 +498,14 @@ var school27 = {lat: 39.808654, lng: -104.833788};
     var infowindow27 = new google.maps.InfoWindow({
         content: contentString27
       });
-    var marker27 = new google.maps.Marker({
+    var image27 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker27 = new google.maps.Marker({
         position: school27,
         map: map,
-        title: 'Howell K-8'
+        title: 'Howell K-8',
+        icon: image27
       });   marker27.addListener('click', function() {
         infowindow27.open(map, marker27);
       });
@@ -408,10 +516,14 @@ var school28 = {lat: 39.769812, lng: -105.014832};
     var infowindow28 = new google.maps.InfoWindow({
         content: contentString28
       });
-    var marker28 = new google.maps.Marker({
+    var image28 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker28 = new google.maps.Marker({
         position: school28,
         map: map,
-        title: 'Academy of Urban Learning'
+        title: 'Academy of Urban Learning',
+        icon: image28
       });   marker28.addListener('click', function() {
         infowindow28.open(map, marker28);
       });
@@ -422,10 +534,14 @@ var school29 = {lat: 39.738037, lng: -105.026519};
     var infowindow29 = new google.maps.InfoWindow({
         content: contentString29
       });
-    var marker29 = new google.maps.Marker({
+    var image29 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker29 = new google.maps.Marker({
         position: school29,
         map: map,
-        title: 'ACE Community Challenge Charter School (ACE/CCS)'
+        title: 'ACE Community Challenge Charter School (ACE/CCS)',
+        icon: image29
       });   marker29.addListener('click', function() {
         infowindow29.open(map, marker29);
       });
@@ -436,10 +552,14 @@ var school30 = {lat: 39.761944, lng: -104.921364};
     var infowindow30 = new google.maps.InfoWindow({
         content: contentString30
       });
-    var marker30 = new google.maps.Marker({
+    var image30 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker30 = new google.maps.Marker({
         position: school30,
         map: map,
-        title: 'Venture Prep High School'
+        title: 'Venture Prep High School',
+        icon: image30
       });   marker30.addListener('click', function() {
         infowindow30.open(map, marker30);
       });
@@ -450,10 +570,14 @@ var school31 = {lat: 39.854992, lng: -105.131743};
     var infowindow31 = new google.maps.InfoWindow({
         content: contentString31
       });
-    var marker31 = new google.maps.Marker({
+    var image31 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker31 = new google.maps.Marker({
         position: school31,
         map: map,
-        title: 'Moore Middle School'
+        title: 'Moore Middle School',
+        icon: image31
       });   marker31.addListener('click', function() {
         infowindow31.open(map, marker31);
       });
@@ -464,10 +588,14 @@ var school32 = {lat: 39.769812, lng: -105.014832};
     var infowindow32 = new google.maps.InfoWindow({
         content: contentString32
       });
-    var marker32 = new google.maps.Marker({
+    var image32 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker32 = new google.maps.Marker({
         position: school32,
         map: map,
-        title: 'Escuela Tlatelolco Centro'
+        title: 'Escuela Tlatelolco Centro',
+        icon: image32
       });   marker32.addListener('click', function() {
         infowindow32.open(map, marker32);
       });
@@ -478,10 +606,14 @@ var school33 = {lat: 39.697455, lng: -104.874651};
     var infowindow33 = new google.maps.InfoWindow({
         content: contentString33
       });
-    var marker33 = new google.maps.Marker({
+    var image33 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker33 = new google.maps.Marker({
         position: school33,
         map: map,
-        title: 'Challenge School'
+        title: 'Challenge School',
+        icon: image33
       });   marker33.addListener('click', function() {
         infowindow33.open(map, marker33);
       });
@@ -492,10 +624,14 @@ var school34 = {lat: 39.669632, lng: -104.933045};
     var infowindow34 = new google.maps.InfoWindow({
         content: contentString34
       });
-    var marker34 = new google.maps.Marker({
+    var image34 = {
+      url: 'img/2.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker34 = new google.maps.Marker({
         position: school34,
         map: map,
-        title: 'Denver Academy'
+        title: 'Denver Academy',
+        icon: image34
       });   marker34.addListener('click', function() {
         infowindow34.open(map, marker34);
       });
@@ -506,10 +642,14 @@ var school35 = {lat: 39.755812, lng: -104.968091};
     var infowindow35 = new google.maps.InfoWindow({
         content: contentString35
       });
-    var marker35 = new google.maps.Marker({
+    var image35 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker35 = new google.maps.Marker({
         position: school35,
         map: map,
-        title: 'Maunal High School'
+        title: 'Maunal High School',
+        icon: image35
       });   marker35.addListener('click', function() {
         infowindow35.open(map, marker35);
       });
@@ -520,10 +660,14 @@ var school36 = {lat: 39.616672, lng: -104.874651};
     var infowindow36 = new google.maps.InfoWindow({
         content: contentString36
       });
-    var marker36 = new google.maps.Marker({
+    var image36 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker36 = new google.maps.Marker({
         position: school36,
         map: map,
-        title: 'Cherry Creek Charter Academy'
+        title: 'Cherry Creek Charter Academy',
+        icon: image36
       });   marker36.addListener('click', function() {
         infowindow36.open(map, marker36);
       });
@@ -534,10 +678,14 @@ var school37 = {lat: 39.675127, lng: -104.968091};
     var infowindow37 = new google.maps.InfoWindow({
         content: contentString37
       });
-    var marker37 = new google.maps.Marker({
+    var image37 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker37 = new google.maps.Marker({
         position: school37,
         map: map,
-        title: 'Slavens K-8'
+        title: 'Slavens K-8',
+        icon: image37
       });   marker37.addListener('click', function() {
         infowindow37.open(map, marker37);
       });
@@ -548,10 +696,14 @@ var school38 = {lat: 39.731698, lng: -104.921364};
     var infowindow38 = new google.maps.InfoWindow({
         content: contentString38
       });
-    var marker38 = new google.maps.Marker({
+    var image38 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker38 = new google.maps.Marker({
         position: school38,
         map: map,
-        title: 'Denver School of the Arts'
+        title: 'Denver School of the Arts',
+        icon: image38
       });   marker38.addListener('click', function() {
         infowindow38.open(map, marker38);
       });
@@ -562,10 +714,14 @@ var school39 = {lat: 39.526793, lng: -104.670443};
     var infowindow39 = new google.maps.InfoWindow({
         content: contentString39
       });
-    var marker39 = new google.maps.Marker({
+    var image39 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker39 = new google.maps.Marker({
         position: school39,
         map: map,
-        title: 'Core Knowledge Charter School'
+        title: 'Core Knowledge Charter School',
+        icon: image39
       });   marker39.addListener('click', function() {
         infowindow39.open(map, marker39);
       });
@@ -576,10 +732,14 @@ var school40 = {lat: 39.178866, lng: -104.612147};
     var infowindow40 = new google.maps.InfoWindow({
         content: contentString40
       });
-    var marker40 = new google.maps.Marker({
+    var image40 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker40 = new google.maps.Marker({
         position: school40,
         map: map,
-        title: 'Elbert Junior-Senior High School'
+        title: 'Elbert Junior-Senior High School',
+        icon: image40
       });   marker40.addListener('click', function() {
         infowindow40.open(map, marker40);
       });
@@ -590,10 +750,14 @@ var school41 = {lat: 39.616604, lng: -105.067432};
     var infowindow41 = new google.maps.InfoWindow({
         content: contentString41
       });
-    var marker41 = new google.maps.Marker({
+    var image41 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker41 = new google.maps.Marker({
         position: school41,
         map: map,
-        title: 'Montessori Peaks Charter Academy'
+        title: 'Montessori Peaks Charter Academy',
+        icon: image41
       });   marker41.addListener('click', function() {
         infowindow41.open(map, marker41);
       });
@@ -604,10 +768,14 @@ var school42 = {lat: 40.228841, lng: -104.997303};
     var infowindow42 = new google.maps.InfoWindow({
         content: contentString42
       });
-    var marker42 = new google.maps.Marker({
+    var image42 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker42 = new google.maps.Marker({
         position: school42,
         map: map,
-        title: 'Mead Middle school'
+        title: 'Mead Middle school',
+        icon: image42
       });   marker42.addListener('click', function() {
         infowindow42.open(map, marker42);
       });
@@ -618,10 +786,14 @@ var school43 = {lat: 39.931173, lng: -104.973933};
     var infowindow43 = new google.maps.InfoWindow({
         content: contentString43
       });
-    var marker43 = new google.maps.Marker({
+    var image43 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker43 = new google.maps.Marker({
         position: school43,
         map: map,
-        title: 'Stargate Charter School'
+        title: 'Stargate Charter School',
+        icon: image43
       });   marker43.addListener('click', function() {
         infowindow43.open(map, marker43);
       });
@@ -632,10 +804,14 @@ var school44 = {lat: 40.489103, lng: -104.915524};
     var infowindow44 = new google.maps.InfoWindow({
         content: contentString44
       });
-    var marker44 = new google.maps.Marker({
+    var image44 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker44 = new google.maps.Marker({
         position: school44,
         map: map,
-        title: 'Windsor Charter Academy'
+        title: 'Windsor Charter Academy',
+        icon: image44
       });   marker44.addListener('click', function() {
         infowindow44.open(map, marker44);
       });
@@ -646,10 +822,14 @@ var school45 = {lat: 39.706931, lng: -104.956408};
     var infowindow45 = new google.maps.InfoWindow({
         content: contentString45
       });
-    var marker45 = new google.maps.Marker({
+    var image45 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker45 = new google.maps.Marker({
         position: school45,
         map: map,
-        title: 'DSST: Byers Middle School'
+        title: 'DSST: Byers Middle School',
+        icon: image45
       });   marker45.addListener('click', function() {
         infowindow45.open(map, marker45);
       });
@@ -660,10 +840,14 @@ var school46 = {lat: 39.818249, lng: -105.067432};
     var infowindow46 = new google.maps.InfoWindow({
         content: contentString46
       });
-    var marker46 = new google.maps.Marker({
+    var image46 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker46 = new google.maps.Marker({
         position: school46,
         map: map,
-        title: 'North Arvada'
+        title: 'North Arvada',
+        icon: image46
       });   marker46.addListener('click', function() {
         infowindow46.open(map, marker46);
       });
@@ -674,10 +858,14 @@ var school47 = {lat: 39.668252, lng: -105.096661};
     var infowindow47 = new google.maps.InfoWindow({
         content: contentString47
       });
-    var marker47 = new google.maps.Marker({
+    var image47 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker47 = new google.maps.Marker({
         position: school47,
         map: map,
-        title: 'Carmody'
+        title: 'Carmody',
+        icon: image47
       });   marker47.addListener('click', function() {
         infowindow47.open(map, marker47);
       });
@@ -688,10 +876,14 @@ var school48 = {lat: 39.576196, lng: -105.067432};
     var infowindow48 = new google.maps.InfoWindow({
         content: contentString48
       });
-    var marker48 = new google.maps.Marker({
+    var image48 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker48 = new google.maps.Marker({
         position: school48,
         map: map,
-        title: 'Ken Caryl'
+        title: 'Ken Caryl',
+        icon: image48
       });   marker48.addListener('click', function() {
         infowindow48.open(map, marker48);
       });
@@ -702,10 +894,14 @@ var school49 = {lat: 39.715877, lng: -105.231183};
     var infowindow49 = new google.maps.InfoWindow({
         content: contentString49
       });
-    var marker49 = new google.maps.Marker({
+    var image49 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker49 = new google.maps.Marker({
         position: school49,
         map: map,
-        title: 'Bell'
+        title: 'Bell',
+        icon: image49
       });   marker49.addListener('click', function() {
         infowindow49.open(map, marker49);
       });
@@ -716,10 +912,14 @@ var school50 = {lat: 39.696161, lng: -105.038208};
     var infowindow50 = new google.maps.InfoWindow({
         content: contentString50
       });
-    var marker50 = new google.maps.Marker({
+    var image50 = {
+      url: 'img/2.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker50 = new google.maps.Marker({
         position: school50,
         map: map,
-        title: 'Abraham Lincoln High School'
+        title: 'Abraham Lincoln High School',
+        icon: image50
       });   marker50.addListener('click', function() {
         infowindow50.open(map, marker50);
       });
@@ -730,10 +930,14 @@ var school51 = {lat: 39.769812, lng: -105.014832};
     var infowindow51 = new google.maps.InfoWindow({
         content: contentString51
       });
-    var marker51 = new google.maps.Marker({
+    var image51 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker51 = new google.maps.Marker({
         position: school51,
         map: map,
-        title: 'Academy of Urban Learning'
+        title: 'Academy of Urban Learning',
+        icon: image51
       });   marker51.addListener('click', function() {
         infowindow51.open(map, marker51);
       });
@@ -744,10 +948,14 @@ var school52 = {lat: 39.761944, lng: -104.921364};
     var infowindow52 = new google.maps.InfoWindow({
         content: contentString52
       });
-    var marker52 = new google.maps.Marker({
+    var image52 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker52 = new google.maps.Marker({
         position: school52,
         map: map,
-        title: 'Venture Prep High School'
+        title: 'Venture Prep High School',
+        icon: image52
       });   marker52.addListener('click', function() {
         infowindow52.open(map, marker52);
       });
@@ -758,10 +966,14 @@ var school53 = {lat: 39.692876, lng: -104.909685};
     var infowindow53 = new google.maps.InfoWindow({
         content: contentString53
       });
-    var marker53 = new google.maps.Marker({
+    var image53 = {
+      url: 'img/2.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker53 = new google.maps.Marker({
         position: school53,
         map: map,
-        title: 'George Washington'
+        title: 'George Washington',
+        icon: image53
       });   marker53.addListener('click', function() {
         infowindow53.open(map, marker53);
       });
@@ -772,10 +984,14 @@ var school54 = {lat: 39.669632, lng: -104.933045};
     var infowindow54 = new google.maps.InfoWindow({
         content: contentString54
       });
-    var marker54 = new google.maps.Marker({
+    var image54 = {
+      url: 'img/2.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker54 = new google.maps.Marker({
         position: school54,
         map: map,
-        title: 'Denver Academy'
+        title: 'Denver Academy',
+        icon: image54
       });   marker54.addListener('click', function() {
         infowindow54.open(map, marker54);
       });
@@ -786,10 +1002,14 @@ var school55 = {lat: 39.755812, lng: -104.968091};
     var infowindow55 = new google.maps.InfoWindow({
         content: contentString55
       });
-    var marker55 = new google.maps.Marker({
+    var image55 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker55 = new google.maps.Marker({
         position: school55,
         map: map,
-        title: 'Manual High School'
+        title: 'Manual High School',
+        icon: image55
       });   marker55.addListener('click', function() {
         infowindow55.open(map, marker55);
       });
@@ -800,10 +1020,14 @@ var school56 = {lat: 39.643928, lng: -104.898006};
     var infowindow56 = new google.maps.InfoWindow({
         content: contentString56
       });
-    var marker56 = new google.maps.Marker({
+    var image56 = {
+      url: 'img/4.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker56 = new google.maps.Marker({
         position: school56,
         map: map,
-        title: 'Thomas Jefferson High School'
+        title: 'Thomas Jefferson High School',
+        icon: image56
       });   marker56.addListener('click', function() {
         infowindow56.open(map, marker56);
       });
@@ -814,10 +1038,14 @@ var school57 = {lat: 39.738037, lng: -105.026519};
     var infowindow57 = new google.maps.InfoWindow({
         content: contentString57
       });
-    var marker57 = new google.maps.Marker({
+    var image57 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker57 = new google.maps.Marker({
         position: school57,
         map: map,
-        title: 'West High School'
+        title: 'West High School',
+        icon: image57
       });   marker57.addListener('click', function() {
         infowindow57.open(map, marker57);
       });
@@ -828,10 +1056,14 @@ var school58 = {lat: 39.675127, lng: -104.968091};
     var infowindow58 = new google.maps.InfoWindow({
         content: contentString58
       });
-    var marker58 = new google.maps.Marker({
+    var image58 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker58 = new google.maps.Marker({
         position: school58,
         map: map,
-        title: 'South High School'
+        title: 'South High School',
+        icon: image58
       });   marker58.addListener('click', function() {
         infowindow58.open(map, marker58);
       });
@@ -842,10 +1074,14 @@ var school59 = {lat: 39.778133, lng: -104.874651};
     var infowindow59 = new google.maps.InfoWindow({
         content: contentString59
       });
-    var marker59 = new google.maps.Marker({
+    var image59 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker59 = new google.maps.Marker({
         position: school59,
         map: map,
-        title: 'Stapleton High School'
+        title: 'Stapleton High School',
+        icon: image59
       });   marker59.addListener('click', function() {
         infowindow59.open(map, marker59);
       });
@@ -856,10 +1092,14 @@ var school60 = {lat: 39.878664, lng: -104.682105};
     var infowindow60 = new google.maps.InfoWindow({
         content: contentString60
       });
-    var marker60 = new google.maps.Marker({
+    var image60 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker60 = new google.maps.Marker({
         position: school60,
         map: map,
-        title: 'Green Valley Ranch High School'
+        title: 'Green Valley Ranch High School',
+        icon: image60
       });   marker60.addListener('click', function() {
         infowindow60.open(map, marker60);
       });
@@ -870,10 +1110,14 @@ var school61 = {lat: 39.755812, lng: -104.968091};
     var infowindow61 = new google.maps.InfoWindow({
         content: contentString61
       });
-    var marker61 = new google.maps.Marker({
+    var image61 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker61 = new google.maps.Marker({
         position: school61,
         map: map,
-        title: 'Cole High School'
+        title: 'Cole High School',
+        icon: image61
       });   marker61.addListener('click', function() {
         infowindow61.open(map, marker61);
       });
@@ -884,10 +1128,14 @@ var school62 = {lat: 39.732746, lng: -104.971012};
     var infowindow62 = new google.maps.InfoWindow({
         content: contentString62
       });
-    var marker62 = new google.maps.Marker({
+    var image62 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker62 = new google.maps.Marker({
         position: school62,
         map: map,
-        title: 'Denver Center for 21st Learning At Wyman'
+        title: 'Denver Center for 21st Learning At Wyman',
+        icon: image62
       });   marker62.addListener('click', function() {
         infowindow62.open(map, marker62);
       });
@@ -898,10 +1146,14 @@ var school63 = {lat: 39.731698, lng: -104.921364};
     var infowindow63 = new google.maps.InfoWindow({
         content: contentString63
       });
-    var marker63 = new google.maps.Marker({
+    var image63 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker63 = new google.maps.Marker({
         position: school63,
         map: map,
-        title: 'Denver School of the Arts'
+        title: 'Denver School of the Arts',
+        icon: image63
       });   marker63.addListener('click', function() {
         infowindow63.open(map, marker63);
       });
@@ -912,10 +1164,14 @@ var school64 = {lat: 39.738037, lng: -105.026519};
     var infowindow64 = new google.maps.InfoWindow({
         content: contentString64
       });
-    var marker64 = new google.maps.Marker({
+    var image64 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker64 = new google.maps.Marker({
         position: school64,
         map: map,
-        title: 'Denver Center for International Studies'
+        title: 'Denver Center for International Studies',
+        icon: image64
       });   marker64.addListener('click', function() {
         infowindow64.open(map, marker64);
       });
@@ -926,10 +1182,14 @@ var school65 = {lat: 39.747363, lng: -105.108354};
     var infowindow65 = new google.maps.InfoWindow({
         content: contentString65
       });
-    var marker65 = new google.maps.Marker({
+    var image65 = {
+      url: 'img/5.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker65 = new google.maps.Marker({
         position: school65,
         map: map,
-        title: 'Lakewood High school'
+        title: 'Lakewood High school',
+        icon: image65
       });   marker65.addListener('click', function() {
         infowindow65.open(map, marker65);
       });
@@ -940,10 +1200,14 @@ var school66 = {lat: 39.854992, lng: -105.131743};
     var infowindow66 = new google.maps.InfoWindow({
         content: contentString66
       });
-    var marker66 = new google.maps.Marker({
+    var image66 = {
+      url: 'img/3.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker66 = new google.maps.Marker({
         position: school66,
         map: map,
-        title: 'Ralston Valley'
+        title: 'Ralston Valley',
+        icon: image66
       });   marker66.addListener('click', function() {
         infowindow66.open(map, marker66);
       });
@@ -954,10 +1218,14 @@ var school67 = {lat: 39.816302, lng: -105.120048};
     var infowindow67 = new google.maps.InfoWindow({
         content: contentString67
       });
-    var marker67 = new google.maps.Marker({
+    var image67 = {
+      url: 'img/3.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker67 = new google.maps.Marker({
         position: school67,
         map: map,
-        title: 'Arvada'
+        title: 'Arvada',
+        icon: image67
       });   marker67.addListener('click', function() {
         infowindow67.open(map, marker67);
       });
@@ -968,10 +1236,14 @@ var school68 = {lat: 39.816302, lng: -105.120048};
     var infowindow68 = new google.maps.InfoWindow({
         content: contentString68
       });
-    var marker68 = new google.maps.Marker({
+    var image68 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker68 = new google.maps.Marker({
         position: school68,
         map: map,
-        title: 'Arvada West'
+        title: 'Arvada West',
+        icon: image68
       });   marker68.addListener('click', function() {
         infowindow68.open(map, marker68);
       });
@@ -982,10 +1254,14 @@ var school69 = {lat: 39.669632, lng: -104.933045};
     var infowindow69 = new google.maps.InfoWindow({
         content: contentString69
       });
-    var marker69 = new google.maps.Marker({
+    var image69 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker69 = new google.maps.Marker({
         position: school69,
         map: map,
-        title: 'Rocky Mountain School of Expeditionary learning'
+        title: 'Rocky Mountain School of Expeditionary learning',
+        icon: image69
       });   marker69.addListener('click', function() {
         infowindow69.open(map, marker69);
       });
@@ -996,10 +1272,14 @@ var school70 = {lat: 39.647845, lng: -105.04113};
     var infowindow70 = new google.maps.InfoWindow({
         content: contentString70
       });
-    var marker70 = new google.maps.Marker({
+    var image70 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker70 = new google.maps.Marker({
         position: school70,
         map: map,
-        title: 'SOAR Academy'
+        title: 'SOAR Academy',
+        icon: image70
       });   marker70.addListener('click', function() {
         infowindow70.open(map, marker70);
       });
@@ -1010,10 +1290,14 @@ var school71 = {lat: 39.675127, lng: -104.968091};
     var infowindow71 = new google.maps.InfoWindow({
         content: contentString71
       });
-    var marker71 = new google.maps.Marker({
+    var image71 = {
+      url: 'img/3.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker71 = new google.maps.Marker({
         position: school71,
         map: map,
-        title: '"Accelerated Schools, Denver"'
+        title: '"Accelerated Schools, Denver"',
+        icon: image71
       });   marker71.addListener('click', function() {
         infowindow71.open(map, marker71);
       });
@@ -1024,10 +1308,14 @@ var school72 = {lat: 39.775256, lng: -105.049897};
     var infowindow72 = new google.maps.InfoWindow({
         content: contentString72
       });
-    var marker72 = new google.maps.Marker({
+    var image72 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker72 = new google.maps.Marker({
         position: school72,
         map: map,
-        title: 'Arrupe Jesuit High School'
+        title: 'Arrupe Jesuit High School',
+        icon: image72
       });   marker72.addListener('click', function() {
         infowindow72.open(map, marker72);
       });
@@ -1038,10 +1326,14 @@ var school73 = {lat: 39.738037, lng: -105.026519};
     var infowindow73 = new google.maps.InfoWindow({
         content: contentString73
       });
-    var marker73 = new google.maps.Marker({
+    var image73 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker73 = new google.maps.Marker({
         position: school73,
         map: map,
-        title: 'Beth Jacobs'
+        title: 'Beth Jacobs',
+        icon: image73
       });   marker73.addListener('click', function() {
         infowindow73.open(map, marker73);
       });
@@ -1052,10 +1344,14 @@ var school74 = {lat: 39.71825, lng: -104.889247};
     var infowindow74 = new google.maps.InfoWindow({
         content: contentString74
       });
-    var marker74 = new google.maps.Marker({
+    var image74 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker74 = new google.maps.Marker({
         position: school74,
         map: map,
-        title: 'Bishop Machebeuf Catholic High School'
+        title: 'Bishop Machebeuf Catholic High School',
+        icon: image74
       });   marker74.addListener('click', function() {
         infowindow74.open(map, marker74);
       });
@@ -1066,10 +1362,14 @@ var school75 = {lat: 39.535023, lng: -105.149287};
     var infowindow75 = new google.maps.InfoWindow({
         content: contentString75
       });
-    var marker75 = new google.maps.Marker({
+    var image75 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker75 = new google.maps.Marker({
         position: school75,
         map: map,
-        title: 'Chatfield High School'
+        title: 'Chatfield High School',
+        icon: image75
       });   marker75.addListener('click', function() {
         infowindow75.open(map, marker75);
       });
@@ -1080,10 +1380,14 @@ var school76 = {lat: 39.755812, lng: -104.968091};
     var infowindow76 = new google.maps.InfoWindow({
         content: contentString76
       });
-    var marker76 = new google.maps.Marker({
+    var image76 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker76 = new google.maps.Marker({
         position: school76,
         map: map,
-        title: 'Bruce Randolph School'
+        title: 'Bruce Randolph School',
+        icon: image76
       });   marker76.addListener('click', function() {
         infowindow76.open(map, marker76);
       });
@@ -1094,10 +1398,14 @@ var school77 = {lat: 39.769812, lng: -105.014832};
     var infowindow77 = new google.maps.InfoWindow({
         content: contentString77
       });
-    var marker77 = new google.maps.Marker({
+    var image77 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker77 = new google.maps.Marker({
         position: school77,
         map: map,
-        title: 'Fred N Thomas Career Education Center'
+        title: 'Fred N Thomas Career Education Center',
+        icon: image77
       });   marker77.addListener('click', function() {
         infowindow77.open(map, marker77);
       });
@@ -1108,10 +1416,14 @@ var school78 = {lat: 39.808654, lng: -104.833788};
     var infowindow78 = new google.maps.InfoWindow({
         content: contentString78
       });
-    var marker78 = new google.maps.Marker({
+    var image78 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker78 = new google.maps.Marker({
         position: school78,
         map: map,
-        title: 'Change Christian Academy'
+        title: 'Change Christian Academy',
+        icon: image78
       });   marker78.addListener('click', function() {
         infowindow78.open(map, marker78);
       });
@@ -1122,10 +1434,14 @@ var school79 = {lat: 39.808654, lng: -104.833788};
     var infowindow79 = new google.maps.InfoWindow({
         content: contentString79
       });
-    var marker79 = new google.maps.Marker({
+    var image79 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker79 = new google.maps.Marker({
         position: school79,
         map: map,
-        title: 'Collegiate Prep Academy'
+        title: 'Collegiate Prep Academy',
+        icon: image79
       });   marker79.addListener('click', function() {
         infowindow79.open(map, marker79);
       });
@@ -1136,10 +1452,14 @@ var school80 = {lat: 39.684924, lng: -105.160984};
     var infowindow80 = new google.maps.InfoWindow({
         content: contentString80
       });
-    var marker80 = new google.maps.Marker({
+    var image80 = {
+      url: 'img/2.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker80 = new google.maps.Marker({
         position: school80,
         map: map,
-        title: 'Green Mountain'
+        title: 'Green Mountain',
+        icon: image80
       });   marker80.addListener('click', function() {
         infowindow80.open(map, marker80);
       });
@@ -1150,10 +1470,14 @@ var school81 = {lat: 39.854992, lng: -105.131743};
     var infowindow81 = new google.maps.InfoWindow({
         content: contentString81
       });
-    var marker81 = new google.maps.Marker({
+    var image81 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker81 = new google.maps.Marker({
         position: school81,
         map: map,
-        title: 'Pomona'
+        title: 'Pomona',
+        icon: image81
       });   marker81.addListener('click', function() {
         infowindow81.open(map, marker81);
       });
@@ -1164,10 +1488,14 @@ var school82 = {lat: 39.738037, lng: -105.026519};
     var infowindow82 = new google.maps.InfoWindow({
         content: contentString82
       });
-    var marker82 = new google.maps.Marker({
+    var image82 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker82 = new google.maps.Marker({
         position: school82,
         map: map,
-        title: 'Colorado High School'
+        title: 'Colorado High School',
+        icon: image82
       });   marker82.addListener('click', function() {
         infowindow82.open(map, marker82);
       });
@@ -1178,10 +1506,14 @@ var school83 = {lat: 39.777584, lng: -105.108354};
     var infowindow83 = new google.maps.InfoWindow({
         content: contentString83
       });
-    var marker83 = new google.maps.Marker({
+    var image83 = {
+      url: 'img/4.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker83 = new google.maps.Marker({
         position: school83,
         map: map,
-        title: 'Wheat Ridge'
+        title: 'Wheat Ridge',
+        icon: image83
       });   marker83.addListener('click', function() {
         infowindow83.open(map, marker83);
       });
@@ -1192,10 +1524,14 @@ var school84 = {lat: 39.647845, lng: -105.04113};
     var infowindow84 = new google.maps.InfoWindow({
         content: contentString84
       });
-    var marker84 = new google.maps.Marker({
+    var image84 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker84 = new google.maps.Marker({
         position: school84,
         map: map,
-        title: 'Southwest Early College'
+        title: 'Southwest Early College',
+        icon: image84
       });   marker84.addListener('click', function() {
         infowindow84.open(map, marker84);
       });
@@ -1206,10 +1542,14 @@ var school85 = {lat: 39.727102, lng: -104.956408};
     var infowindow85 = new google.maps.InfoWindow({
         content: contentString85
       });
-    var marker85 = new google.maps.Marker({
+    var image85 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker85 = new google.maps.Marker({
         position: school85,
         map: map,
-        title: 'Contemporary Learning Academy High School'
+        title: 'Contemporary Learning Academy High School',
+        icon: image85
       });   marker85.addListener('click', function() {
         infowindow85.open(map, marker85);
       });
@@ -1220,10 +1560,14 @@ var school86 = {lat: 39.808654, lng: -104.833788};
     var infowindow86 = new google.maps.InfoWindow({
         content: contentString86
       });
-    var marker86 = new google.maps.Marker({
+    var image86 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker86 = new google.maps.Marker({
         position: school86,
         map: map,
-        title: 'Denver Center for International Studies at Montbello'
+        title: 'Denver Center for International Studies at Montbello',
+        icon: image86
       });   marker86.addListener('click', function() {
         infowindow86.open(map, marker86);
       });
@@ -1234,10 +1578,14 @@ var school87 = {lat: 39.509975, lng: -105.336536};
     var infowindow87 = new google.maps.InfoWindow({
         content: contentString87
       });
-    var marker87 = new google.maps.Marker({
+    var image87 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker87 = new google.maps.Marker({
         position: school87,
         map: map,
-        title: 'Conifer High'
+        title: 'Conifer High',
+        icon: image87
       });   marker87.addListener('click', function() {
         infowindow87.open(map, marker87);
       });
@@ -1248,10 +1596,14 @@ var school88 = {lat: 39.535023, lng: -105.149287};
     var infowindow88 = new google.maps.InfoWindow({
         content: contentString88
       });
-    var marker88 = new google.maps.Marker({
+    var image88 = {
+      url: 'img/3.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker88 = new google.maps.Marker({
         position: school88,
         map: map,
-        title: 'Dakota Ridge'
+        title: 'Dakota Ridge',
+        icon: image88
       });   marker88.addListener('click', function() {
         infowindow88.open(map, marker88);
       });
@@ -1262,10 +1614,14 @@ var school89 = {lat: 39.702022, lng: -104.839625};
     var infowindow89 = new google.maps.InfoWindow({
         content: contentString89
       });
-    var marker89 = new google.maps.Marker({
+    var image89 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker89 = new google.maps.Marker({
         position: school89,
         map: map,
-        title: 'Lotus School for Excellence High School'
+        title: 'Lotus School for Excellence High School',
+        icon: image89
       });   marker89.addListener('click', function() {
         infowindow89.open(map, marker89);
       });
@@ -1276,10 +1632,14 @@ var school90 = {lat: 39.693709, lng: -104.7871};
     var infowindow90 = new google.maps.InfoWindow({
         content: contentString90
       });
-    var marker90 = new google.maps.Marker({
+    var image90 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker90 = new google.maps.Marker({
         position: school90,
         map: map,
-        title: 'Vanguard Classical School - East Campus High School'
+        title: 'Vanguard Classical School - East Campus High School',
+        icon: image90
       });   marker90.addListener('click', function() {
         infowindow90.open(map, marker90);
       });
@@ -1290,10 +1650,14 @@ var school91 = {lat: 39.739331, lng: -104.862975};
     var infowindow91 = new google.maps.InfoWindow({
         content: contentString91
       });
-    var marker91 = new google.maps.Marker({
+    var image91 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker91 = new google.maps.Marker({
         position: school91,
         map: map,
-        title: 'APS Online High School'
+        title: 'APS Online High School',
+        icon: image91
       });   marker91.addListener('click', function() {
         infowindow91.open(map, marker91);
       });
@@ -1304,10 +1668,14 @@ var school92 = {lat: 39.754247, lng: -104.7871};
     var infowindow92 = new google.maps.InfoWindow({
         content: contentString92
       });
-    var marker92 = new google.maps.Marker({
+    var image92 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker92 = new google.maps.Marker({
         position: school92,
         map: map,
-        title: 'Aurora Quest Middle School'
+        title: 'Aurora Quest Middle School',
+        icon: image92
       });   marker92.addListener('click', function() {
         infowindow92.open(map, marker92);
       });
@@ -1318,10 +1686,14 @@ var school93 = {lat: 39.754247, lng: -104.7871};
     var infowindow93 = new google.maps.InfoWindow({
         content: contentString93
       });
-    var marker93 = new google.maps.Marker({
+    var image93 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker93 = new google.maps.Marker({
         position: school93,
         map: map,
-        title: 'Crossroads Center High School'
+        title: 'Crossroads Center High School',
+        icon: image93
       });   marker93.addListener('click', function() {
         infowindow93.open(map, marker93);
       });
@@ -1332,10 +1704,14 @@ var school94 = {lat: 39.754247, lng: -104.7871};
     var infowindow94 = new google.maps.InfoWindow({
         content: contentString94
       });
-    var marker94 = new google.maps.Marker({
+    var image94 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker94 = new google.maps.Marker({
         position: school94,
         map: map,
-        title: 'Futures Academy High School'
+        title: 'Futures Academy High School',
+        icon: image94
       });   marker94.addListener('click', function() {
         infowindow94.open(map, marker94);
       });
@@ -1346,10 +1722,14 @@ var school95 = {lat: 39.754247, lng: -104.7871};
     var infowindow95 = new google.maps.InfoWindow({
         content: contentString95
       });
-    var marker95 = new google.maps.Marker({
+    var image95 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker95 = new google.maps.Marker({
         position: school95,
         map: map,
-        title: 'William Smith High School'
+        title: 'William Smith High School',
+        icon: image95
       });   marker95.addListener('click', function() {
         infowindow95.open(map, marker95);
       });
@@ -1360,10 +1740,14 @@ var school96 = {lat: 39.63, lng: -104.8};
     var infowindow96 = new google.maps.InfoWindow({
         content: contentString96
       });
-    var marker96 = new google.maps.Marker({
+    var image96 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker96 = new google.maps.Marker({
         position: school96,
         map: map,
-        title: 'AXL Academy (Expeditionary Learning) Middle School'
+        title: 'AXL Academy (Expeditionary Learning) Middle School',
+        icon: image96
       });   marker96.addListener('click', function() {
         infowindow96.open(map, marker96);
       });
@@ -1374,10 +1758,14 @@ var school97 = {lat: 39.693709, lng: -104.7871};
     var infowindow97 = new google.maps.InfoWindow({
         content: contentString97
       });
-    var marker97 = new google.maps.Marker({
+    var image97 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker97 = new google.maps.Marker({
         position: school97,
         map: map,
-        title: 'Global Villiage Middle School'
+        title: 'Global Villiage Middle School',
+        icon: image97
       });   marker97.addListener('click', function() {
         infowindow97.open(map, marker97);
       });
@@ -1388,10 +1776,14 @@ var school98 = {lat: 39.739331, lng: -104.862975};
     var infowindow98 = new google.maps.InfoWindow({
         content: contentString98
       });
-    var marker98 = new google.maps.Marker({
+    var image98 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker98 = new google.maps.Marker({
         position: school98,
         map: map,
-        title: 'Aurora Central'
+        title: 'Aurora Central',
+        icon: image98
       });   marker98.addListener('click', function() {
         infowindow98.open(map, marker98);
       });
@@ -1402,10 +1794,14 @@ var school99 = {lat: 39.739331, lng: -104.862975};
     var infowindow99 = new google.maps.InfoWindow({
         content: contentString99
       });
-    var marker99 = new google.maps.Marker({
+    var image99 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker99 = new google.maps.Marker({
         position: school99,
         map: map,
-        title: 'Aurora West College Preparatory Academy'
+        title: 'Aurora West College Preparatory Academy',
+        icon: image99
       });   marker99.addListener('click', function() {
         infowindow99.open(map, marker99);
       });
@@ -1416,10 +1812,14 @@ var school100 = {lat: 39.702022, lng: -104.839625};
     var infowindow100 = new google.maps.InfoWindow({
         content: contentString100
       });
-    var marker100 = new google.maps.Marker({
+    var image100 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker100 = new google.maps.Marker({
         position: school100,
         map: map,
-        title: 'Gateway'
+        title: 'Gateway',
+        icon: image100
       });   marker100.addListener('click', function() {
         infowindow100.open(map, marker100);
       });
@@ -1430,10 +1830,14 @@ var school101 = {lat: 39.739331, lng: -104.862975};
     var infowindow101 = new google.maps.InfoWindow({
         content: contentString101
       });
-    var marker101 = new google.maps.Marker({
+    var image101 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker101 = new google.maps.Marker({
         position: school101,
         map: map,
-        title: 'Aurora Academy'
+        title: 'Aurora Academy',
+        icon: image101
       });   marker101.addListener('click', function() {
         infowindow101.open(map, marker101);
       });
@@ -1444,10 +1848,14 @@ var school102 = {lat: 39.754247, lng: -104.7871};
     var infowindow102 = new google.maps.InfoWindow({
         content: contentString102
       });
-    var marker102 = new google.maps.Marker({
+    var image102 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker102 = new google.maps.Marker({
         position: school102,
         map: map,
-        title: 'William Smith'
+        title: 'William Smith',
+        icon: image102
       });   marker102.addListener('click', function() {
         infowindow102.open(map, marker102);
       });
@@ -1458,10 +1866,14 @@ var school103 = {lat: 39.705777, lng: -104.693767};
     var infowindow103 = new google.maps.InfoWindow({
         content: contentString103
       });
-    var marker103 = new google.maps.Marker({
+    var image103 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker103 = new google.maps.Marker({
         position: school103,
         map: map,
-        title: 'Vista PEAK Preparatory'
+        title: 'Vista PEAK Preparatory',
+        icon: image103
       });   marker103.addListener('click', function() {
         infowindow103.open(map, marker103);
       });
@@ -1472,10 +1884,14 @@ var school104 = {lat: 39.656342, lng: -104.763762};
     var infowindow104 = new google.maps.InfoWindow({
         content: contentString104
       });
-    var marker104 = new google.maps.Marker({
+    var image104 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker104 = new google.maps.Marker({
         position: school104,
         map: map,
-        title: 'Rangeview'
+        title: 'Rangeview',
+        icon: image104
       });   marker104.addListener('click', function() {
         infowindow104.open(map, marker104);
       });
@@ -1486,10 +1902,14 @@ var school105 = {lat: 39.754247, lng: -104.7871};
     var infowindow105 = new google.maps.InfoWindow({
         content: contentString105
       });
-    var marker105 = new google.maps.Marker({
+    var image105 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker105 = new google.maps.Marker({
         position: school105,
         map: map,
-        title: 'Hinkley'
+        title: 'Hinkley',
+        icon: image105
       });   marker105.addListener('click', function() {
         infowindow105.open(map, marker105);
       });
@@ -1500,10 +1920,14 @@ var school106 = {lat: 39.754247, lng: -104.7871};
     var infowindow106 = new google.maps.InfoWindow({
         content: contentString106
       });
-    var marker106 = new google.maps.Marker({
+    var image106 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker106 = new google.maps.Marker({
         position: school106,
         map: map,
-        title: 'South Middle School'
+        title: 'South Middle School',
+        icon: image106
       });   marker106.addListener('click', function() {
         infowindow106.open(map, marker106);
       });
@@ -1514,10 +1938,14 @@ var school107 = {lat: 39.739331, lng: -104.862975};
     var infowindow107 = new google.maps.InfoWindow({
         content: contentString107
       });
-    var marker107 = new google.maps.Marker({
+    var image107 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker107 = new google.maps.Marker({
         position: school107,
         map: map,
-        title: 'North Middle School Health Sciences & Technology Campus'
+        title: 'North Middle School Health Sciences & Technology Campus',
+        icon: image107
       });   marker107.addListener('click', function() {
         infowindow107.open(map, marker107);
       });
@@ -1528,10 +1956,14 @@ var school108 = {lat: 39.656342, lng: -104.763762};
     var infowindow108 = new google.maps.InfoWindow({
         content: contentString108
       });
-    var marker108 = new google.maps.Marker({
+    var image108 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker108 = new google.maps.Marker({
         position: school108,
         map: map,
-        title: 'Mrachek Middle School'
+        title: 'Mrachek Middle School',
+        icon: image108
       });   marker108.addListener('click', function() {
         infowindow108.open(map, marker108);
       });
@@ -1542,10 +1974,14 @@ var school109 = {lat: 39.656342, lng: -104.763762};
     var infowindow109 = new google.maps.InfoWindow({
         content: contentString109
       });
-    var marker109 = new google.maps.Marker({
+    var image109 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker109 = new google.maps.Marker({
         position: school109,
         map: map,
-        title: 'Columbia Middle School'
+        title: 'Columbia Middle School',
+        icon: image109
       });   marker109.addListener('click', function() {
         infowindow109.open(map, marker109);
       });
@@ -1556,10 +1992,14 @@ var school110 = {lat: 39.754247, lng: -104.7871};
     var infowindow110 = new google.maps.InfoWindow({
         content: contentString110
       });
-    var marker110 = new google.maps.Marker({
+    var image110 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker110 = new google.maps.Marker({
         position: school110,
         map: map,
-        title: 'East Middle School'
+        title: 'East Middle School',
+        icon: image110
       });   marker110.addListener('click', function() {
         infowindow110.open(map, marker110);
       });
@@ -1570,10 +2010,14 @@ var school111 = {lat: 39.702022, lng: -104.839625};
     var infowindow111 = new google.maps.InfoWindow({
         content: contentString111
       });
-    var marker111 = new google.maps.Marker({
+    var image111 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker111 = new google.maps.Marker({
         position: school111,
         map: map,
-        title: 'Aurora Hills Middle School'
+        title: 'Aurora Hills Middle School',
+        icon: image111
       });   marker111.addListener('click', function() {
         infowindow111.open(map, marker111);
       });
@@ -1584,10 +2028,14 @@ var school112 = {lat: 39.702022, lng: -104.839625};
     var infowindow112 = new google.maps.InfoWindow({
         content: contentString112
       });
-    var marker112 = new google.maps.Marker({
+    var image112 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker112 = new google.maps.Marker({
         position: school112,
         map: map,
-        title: 'Aurora West College Prep Academy Middle School'
+        title: 'Aurora West College Prep Academy Middle School',
+        icon: image112
       });   marker112.addListener('click', function() {
         infowindow112.open(map, marker112);
       });
@@ -1598,10 +2046,14 @@ var school113 = {lat: 39.996064, lng: -105.090815};
     var infowindow113 = new google.maps.InfoWindow({
         content: contentString113
       });
-    var marker113 = new google.maps.Marker({
+    var image113 = {
+      url: 'img/2.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker113 = new google.maps.Marker({
         position: school113,
         map: map,
-        title: 'Angevine Middle School'
+        title: 'Angevine Middle School',
+        icon: image113
       });   marker113.addListener('click', function() {
         infowindow113.open(map, marker113);
       });
@@ -1612,10 +2064,14 @@ var school114 = {lat: 40.000538, lng: -105.20778};
     var infowindow114 = new google.maps.InfoWindow({
         content: contentString114
       });
-    var marker114 = new google.maps.Marker({
+    var image114 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker114 = new google.maps.Marker({
         position: school114,
         map: map,
-        title: 'Aspen Creek K-8 School'
+        title: 'Aspen Creek K-8 School',
+        icon: image114
       });   marker114.addListener('click', function() {
         infowindow114.open(map, marker114);
       });
@@ -1626,10 +2082,14 @@ var school115 = {lat: 40.000538, lng: -105.20778};
     var infowindow115 = new google.maps.InfoWindow({
         content: contentString115
       });
-    var marker115 = new google.maps.Marker({
+    var image115 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker115 = new google.maps.Marker({
         position: school115,
         map: map,
-        title: 'Boulder Explore'
+        title: 'Boulder Explore',
+        icon: image115
       });   marker115.addListener('click', function() {
         infowindow115.open(map, marker115);
       });
@@ -1640,10 +2100,14 @@ var school116 = {lat: 39.93892, lng: -105.067432};
     var infowindow116 = new google.maps.InfoWindow({
         content: contentString116
       });
-    var marker116 = new google.maps.Marker({
+    var image116 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker116 = new google.maps.Marker({
         position: school116,
         map: map,
-        title: 'Boulder Universal'
+        title: 'Boulder Universal',
+        icon: image116
       });   marker116.addListener('click', function() {
         infowindow116.open(map, marker116);
       });
@@ -1654,10 +2118,14 @@ var school117 = {lat: 40.045474, lng: -105.283851};
     var infowindow117 = new google.maps.InfoWindow({
         content: contentString117
       });
-    var marker117 = new google.maps.Marker({
+    var image117 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker117 = new google.maps.Marker({
         position: school117,
         map: map,
-        title: 'Broomfield Heights Middle School'
+        title: 'Broomfield Heights Middle School',
+        icon: image117
       });   marker117.addListener('click', function() {
         infowindow117.open(map, marker117);
       });
@@ -1668,10 +2136,14 @@ var school118 = {lat: 40.045474, lng: -105.283851};
     var infowindow118 = new google.maps.InfoWindow({
         content: contentString118
       });
-    var marker118 = new google.maps.Marker({
+    var image118 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker118 = new google.maps.Marker({
         position: school118,
         map: map,
-        title: 'Casey Middle School'
+        title: 'Casey Middle School',
+        icon: image118
       });   marker118.addListener('click', function() {
         infowindow118.open(map, marker118);
       });
@@ -1682,10 +2154,14 @@ var school119 = {lat: 39.943447, lng: -105.18438};
     var infowindow119 = new google.maps.InfoWindow({
         content: contentString119
       });
-    var marker119 = new google.maps.Marker({
+    var image119 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker119 = new google.maps.Marker({
         position: school119,
         map: map,
-        title: 'Centennial Middle School'
+        title: 'Centennial Middle School',
+        icon: image119
       });   marker119.addListener('click', function() {
         infowindow119.open(map, marker119);
       });
@@ -1696,10 +2172,14 @@ var school120 = {lat: 39.943447, lng: -105.18438};
     var infowindow120 = new google.maps.InfoWindow({
         content: contentString120
       });
-    var marker120 = new google.maps.Marker({
+    var image120 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker120 = new google.maps.Marker({
         position: school120,
         map: map,
-        title: 'Eldorado K-8 School'
+        title: 'Eldorado K-8 School',
+        icon: image120
       });   marker120.addListener('click', function() {
         infowindow120.open(map, marker120);
       });
@@ -1710,10 +2190,14 @@ var school121 = {lat: 39.979999, lng: -105.248737};
     var infowindow121 = new google.maps.InfoWindow({
         content: contentString121
       });
-    var marker121 = new google.maps.Marker({
+    var image121 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker121 = new google.maps.Marker({
         position: school121,
         map: map,
-        title: 'Halcyon Middle-Senior'
+        title: 'Halcyon Middle-Senior',
+        icon: image121
       });   marker121.addListener('click', function() {
         infowindow121.open(map, marker121);
       });
@@ -1724,10 +2208,14 @@ var school122 = {lat: 40.000538, lng: -105.20778};
     var infowindow122 = new google.maps.InfoWindow({
         content: contentString122
       });
-    var marker122 = new google.maps.Marker({
+    var image122 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker122 = new google.maps.Marker({
         position: school122,
         map: map,
-        title: 'Horizons K-8 School'
+        title: 'Horizons K-8 School',
+        icon: image122
       });   marker122.addListener('click', function() {
         infowindow122.open(map, marker122);
       });
@@ -1738,10 +2226,14 @@ var school123 = {lat: 39.943447, lng: -105.18438};
     var infowindow123 = new google.maps.InfoWindow({
         content: contentString123
       });
-    var marker123 = new google.maps.Marker({
+    var image123 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker123 = new google.maps.Marker({
         position: school123,
         map: map,
-        title: 'Louisville Middle School'
+        title: 'Louisville Middle School',
+        icon: image123
       });   marker123.addListener('click', function() {
         infowindow123.open(map, marker123);
       });
@@ -1752,10 +2244,14 @@ var school124 = {lat: 40.000538, lng: -105.20778};
     var infowindow124 = new google.maps.InfoWindow({
         content: contentString124
       });
-    var marker124 = new google.maps.Marker({
+    var image124 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker124 = new google.maps.Marker({
         position: school124,
         map: map,
-        title: 'Manhattan School of Arts and Academics'
+        title: 'Manhattan School of Arts and Academics',
+        icon: image124
       });   marker124.addListener('click', function() {
         infowindow124.open(map, marker124);
       });
@@ -1766,10 +2262,14 @@ var school125 = {lat: 39.943447, lng: -105.18438};
     var infowindow125 = new google.maps.InfoWindow({
         content: contentString125
       });
-    var marker125 = new google.maps.Marker({
+    var image125 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker125 = new google.maps.Marker({
         position: school125,
         map: map,
-        title: 'Monarch K-8 School'
+        title: 'Monarch K-8 School',
+        icon: image125
       });   marker125.addListener('click', function() {
         infowindow125.open(map, marker125);
       });
@@ -1780,10 +2280,14 @@ var school126 = {lat: 40.011812, lng: -105.641253};
     var infowindow126 = new google.maps.InfoWindow({
         content: contentString126
       });
-    var marker126 = new google.maps.Marker({
+    var image126 = {
+      url: 'img/2.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker126 = new google.maps.Marker({
         position: school126,
         map: map,
-        title: 'Nederland Middle-Senior High School'
+        title: 'Nederland Middle-Senior High School',
+        icon: image126
       });   marker126.addListener('click', function() {
         infowindow126.open(map, marker126);
       });
@@ -1794,10 +2298,14 @@ var school127 = {lat: 39.996064, lng: -105.090815};
     var infowindow127 = new google.maps.InfoWindow({
         content: contentString127
       });
-    var marker127 = new google.maps.Marker({
+    var image127 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker127 = new google.maps.Marker({
         position: school127,
         map: map,
-        title: 'Peak to Peak Charter - Middle School'
+        title: 'Peak to Peak Charter - Middle School',
+        icon: image127
       });   marker127.addListener('click', function() {
         infowindow127.open(map, marker127);
       });
@@ -1808,10 +2316,14 @@ var school128 = {lat: 40.000538, lng: -105.20778};
     var infowindow128 = new google.maps.InfoWindow({
         content: contentString128
       });
-    var marker128 = new google.maps.Marker({
+    var image128 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker128 = new google.maps.Marker({
         position: school128,
         map: map,
-        title: 'Platt CHOICE Program'
+        title: 'Platt CHOICE Program',
+        icon: image128
       });   marker128.addListener('click', function() {
         infowindow128.open(map, marker128);
       });
@@ -1822,10 +2334,14 @@ var school129 = {lat: 39.979999, lng: -105.248737};
     var infowindow129 = new google.maps.InfoWindow({
         content: contentString129
       });
-    var marker129 = new google.maps.Marker({
+    var image129 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker129 = new google.maps.Marker({
         position: school129,
         map: map,
-        title: 'Platt Middle School'
+        title: 'Platt Middle School',
+        icon: image129
       });   marker129.addListener('click', function() {
         infowindow129.open(map, marker129);
       });
@@ -1836,10 +2352,14 @@ var school130 = {lat: 39.979999, lng: -105.248737};
     var infowindow130 = new google.maps.InfoWindow({
         content: contentString130
       });
-    var marker130 = new google.maps.Marker({
+    var image130 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker130 = new google.maps.Marker({
         position: school130,
         map: map,
-        title: 'Southern Hills Middle School'
+        title: 'Southern Hills Middle School',
+        icon: image130
       });   marker130.addListener('click', function() {
         infowindow130.open(map, marker130);
       });
@@ -1850,10 +2370,14 @@ var school131 = {lat: 39.979999, lng: -105.248737};
     var infowindow131 = new google.maps.InfoWindow({
         content: contentString131
       });
-    var marker131 = new google.maps.Marker({
+    var image131 = {
+      url: 'img/5.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker131 = new google.maps.Marker({
         position: school131,
         map: map,
-        title: 'Summit Charter Middle School'
+        title: 'Summit Charter Middle School',
+        icon: image131
       });   marker131.addListener('click', function() {
         infowindow131.open(map, marker131);
       });
@@ -1864,10 +2388,14 @@ var school132 = {lat: 40.038629, lng: -105.371668};
     var infowindow132 = new google.maps.InfoWindow({
         content: contentString132
       });
-    var marker132 = new google.maps.Marker({
+    var image132 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker132 = new google.maps.Marker({
         position: school132,
         map: map,
-        title: 'Araphoe Campus'
+        title: 'Araphoe Campus',
+        icon: image132
       });   marker132.addListener('click', function() {
         infowindow132.open(map, marker132);
       });
@@ -1878,10 +2406,14 @@ var school133 = {lat: 40.038629, lng: -105.371668};
     var infowindow133 = new google.maps.InfoWindow({
         content: contentString133
       });
-    var marker133 = new google.maps.Marker({
+    var image133 = {
+      url: 'img/7.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker133 = new google.maps.Marker({
         position: school133,
         map: map,
-        title: 'Boulder High School'
+        title: 'Boulder High School',
+        icon: image133
       });   marker133.addListener('click', function() {
         infowindow133.open(map, marker133);
       });
@@ -1892,10 +2424,14 @@ var school134 = {lat: 39.739236, lng: -104.990251};
     var infowindow134 = new google.maps.InfoWindow({
         content: contentString134
       });
-    var marker134 = new google.maps.Marker({
+    var image134 = {
+      url: 'img/2.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker134 = new google.maps.Marker({
         position: school134,
         map: map,
-        title: 'Boulder Preparatory High School'
+        title: 'Boulder Preparatory High School',
+        icon: image134
       });   marker134.addListener('click', function() {
         infowindow134.open(map, marker134);
       });
@@ -1906,10 +2442,14 @@ var school135 = {lat: 40.000538, lng: -105.20778};
     var infowindow135 = new google.maps.InfoWindow({
         content: contentString135
       });
-    var marker135 = new google.maps.Marker({
+    var image135 = {
+      url: 'img/1.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker135 = new google.maps.Marker({
         position: school135,
         map: map,
-        title: 'Broomfield High School'
+        title: 'Broomfield High School',
+        icon: image135
       });   marker135.addListener('click', function() {
         infowindow135.open(map, marker135);
       });
@@ -1920,10 +2460,14 @@ var school136 = {lat: 39.996064, lng: -105.090815};
     var infowindow136 = new google.maps.InfoWindow({
         content: contentString136
       });
-    var marker136 = new google.maps.Marker({
+    var image136 = {
+      url: 'img/2.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker136 = new google.maps.Marker({
         position: school136,
         map: map,
-        title: 'Career and Technical Education Center'
+        title: 'Career and Technical Education Center',
+        icon: image136
       });   marker136.addListener('click', function() {
         infowindow136.open(map, marker136);
       });
@@ -1934,10 +2478,14 @@ var school137 = {lat: 39.996064, lng: -105.090815};
     var infowindow137 = new google.maps.InfoWindow({
         content: contentString137
       });
-    var marker137 = new google.maps.Marker({
+    var image137 = {
+      url: 'img/8.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker137 = new google.maps.Marker({
         position: school137,
         map: map,
-        title: 'Centarus High School'
+        title: 'Centarus High School',
+        icon: image137
       });   marker137.addListener('click', function() {
         infowindow137.open(map, marker137);
       });
@@ -1948,10 +2496,14 @@ var school138 = {lat: 39.979999, lng: -105.248737};
     var infowindow138 = new google.maps.InfoWindow({
         content: contentString138
       });
-    var marker138 = new google.maps.Marker({
+    var image138 = {
+      url: 'img/1001.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker138 = new google.maps.Marker({
         position: school138,
         map: map,
-        title: 'Fairview High School'
+        title: 'Fairview High School',
+        icon: image138
       });   marker138.addListener('click', function() {
         infowindow138.open(map, marker138);
       });
@@ -1962,10 +2514,14 @@ var school139 = {lat: 39.943447, lng: -105.18438};
     var infowindow139 = new google.maps.InfoWindow({
         content: contentString139
       });
-    var marker139 = new google.maps.Marker({
+    var image139 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker139 = new google.maps.Marker({
         position: school139,
         map: map,
-        title: 'Justice High School'
+        title: 'Justice High School',
+        icon: image139
       });   marker139.addListener('click', function() {
         infowindow139.open(map, marker139);
       });
@@ -1976,10 +2532,14 @@ var school140 = {lat: 39.943447, lng: -105.18438};
     var infowindow140 = new google.maps.InfoWindow({
         content: contentString140
       });
-    var marker140 = new google.maps.Marker({
+    var image140 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker140 = new google.maps.Marker({
         position: school140,
         map: map,
-        title: 'Monarch High School'
+        title: 'Monarch High School',
+        icon: image140
       });   marker140.addListener('click', function() {
         infowindow140.open(map, marker140);
       });
@@ -1990,10 +2550,14 @@ var school141 = {lat: 40.011812, lng: -105.641253};
     var infowindow141 = new google.maps.InfoWindow({
         content: contentString141
       });
-    var marker141 = new google.maps.Marker({
+    var image141 = {
+      url: 'img/5.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker141 = new google.maps.Marker({
         position: school141,
         map: map,
-        title: 'Nederland Middle-Senior High School'
+        title: 'Nederland Middle-Senior High School',
+        icon: image141
       });   marker141.addListener('click', function() {
         infowindow141.open(map, marker141);
       });
@@ -2004,10 +2568,14 @@ var school142 = {lat: 40.038629, lng: -105.371668};
     var infowindow142 = new google.maps.InfoWindow({
         content: contentString142
       });
-    var marker142 = new google.maps.Marker({
+    var image142 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker142 = new google.maps.Marker({
         position: school142,
         map: map,
-        title: 'New Vista High School'
+        title: 'New Vista High School',
+        icon: image142
       });   marker142.addListener('click', function() {
         infowindow142.open(map, marker142);
       });
@@ -2018,10 +2586,14 @@ var school143 = {lat: 39.996064, lng: -105.090815};
     var infowindow143 = new google.maps.InfoWindow({
         content: contentString143
       });
-    var marker143 = new google.maps.Marker({
+    var image143 = {
+      url: 'img/5.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker143 = new google.maps.Marker({
         position: school143,
         map: map,
-        title: 'Peak to Peak'
+        title: 'Peak to Peak',
+        icon: image143
       });   marker143.addListener('click', function() {
         infowindow143.open(map, marker143);
       });
@@ -2032,10 +2604,14 @@ var school144 = {lat: 39.581507, lng: -104.717095};
     var infowindow144 = new google.maps.InfoWindow({
         content: contentString144
       });
-    var marker144 = new google.maps.Marker({
+    var image144 = {
+      url: 'img/8.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker144 = new google.maps.Marker({
         position: school144,
         map: map,
-        title: 'Cherokee Trail High School'
+        title: 'Cherokee Trail High School',
+        icon: image144
       });   marker144.addListener('click', function() {
         infowindow144.open(map, marker144);
       });
@@ -2046,10 +2622,14 @@ var school145 = {lat: 39.616672, lng: -104.874651};
     var infowindow145 = new google.maps.InfoWindow({
         content: contentString145
       });
-    var marker145 = new google.maps.Marker({
+    var image145 = {
+      url: 'img/4.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker145 = new google.maps.Marker({
         position: school145,
         map: map,
-        title: 'Cherry Creek High School'
+        title: 'Cherry Creek High School',
+        icon: image145
       });   marker145.addListener('click', function() {
         infowindow145.open(map, marker145);
       });
@@ -2060,10 +2640,14 @@ var school146 = {lat: 39.628816, lng: -104.781265};
     var infowindow146 = new google.maps.InfoWindow({
         content: contentString146
       });
-    var marker146 = new google.maps.Marker({
+    var image146 = {
+      url: 'img/2.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker146 = new google.maps.Marker({
         position: school146,
         map: map,
-        title: 'Eaglecrest High School'
+        title: 'Eaglecrest High School',
+        icon: image146
       });   marker146.addListener('click', function() {
         infowindow146.open(map, marker146);
       });
@@ -2074,10 +2658,14 @@ var school147 = {lat: 39.581507, lng: -104.717095};
     var infowindow147 = new google.maps.InfoWindow({
         content: contentString147
       });
-    var marker147 = new google.maps.Marker({
+    var image147 = {
+      url: 'img/6.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker147 = new google.maps.Marker({
         position: school147,
         map: map,
-        title: 'Grandview High School'
+        title: 'Grandview High School',
+        icon: image147
       });   marker147.addListener('click', function() {
         infowindow147.open(map, marker147);
       });
@@ -2088,10 +2676,14 @@ var school148 = {lat: 39.702022, lng: -104.839625};
     var infowindow148 = new google.maps.InfoWindow({
         content: contentString148
       });
-    var marker148 = new google.maps.Marker({
+    var image148 = {
+      url: 'img/11.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker148 = new google.maps.Marker({
         position: school148,
         map: map,
-        title: 'Overland High School / Institute of Science & Technology'
+        title: 'Overland High School / Institute of Science & Technology',
+        icon: image148
       });   marker148.addListener('click', function() {
         infowindow148.open(map, marker148);
       });
@@ -2102,16 +2694,25 @@ var school149 = {lat: 39.628816, lng: -104.781265};
     var infowindow149 = new google.maps.InfoWindow({
         content: contentString149
       });
-    var marker149 = new google.maps.Marker({
+    var image149 = {
+      url: 'img/0.jpeg',
+      scaledSize: new google.maps.Size(20, 20)
+    };    var marker149 = new google.maps.Marker({
         position: school149,
         map: map,
-        title: 'Smoky Hill High School'
+        title: 'Smoky Hill High School',
+        icon: image149
       });   marker149.addListener('click', function() {
         infowindow149.open(map, marker149);
       });
 
 
+
+
+
+
 }
+
 
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCOqhSR1WZP7rppMbHu7Fj-b4JA6Trvy8&signed_in=true&callback=initMap"></script>

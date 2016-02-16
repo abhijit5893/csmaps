@@ -133,7 +133,7 @@ var school6 = {lat: 39.692876, lng: -104.909685};
       });
 
 
-var school7 = {lat: 39.878664, lng: -104.682105};
+var school7 = {lat: 39.878662, lng: -104.682107};
     var contentString7 = '<div id="school7" name="Pitt Waller K-8">Name: Pitt Waller K-8<br/>Class: 0<br/>Minority: 92.6<br/>Free/DiscountedLunch: 78.3</div>';
     var infowindow7 = new google.maps.InfoWindow({
         content: contentString7
@@ -205,7 +205,7 @@ var school10 = {lat: 39.675127, lng: -104.968091};
       });
 
 
-var school11 = {lat: 39.692876, lng: -104.909685};
+var school11 = {lat: 39.692874, lng: -104.909687};
     var contentString11 = '<div id="school11" name="George Washington">Name: George Washington<br/>Class: 2<br/>Minority: 70<br/>Free/DiscountedLunch: 50.97</div>';
     var infowindow11 = new google.maps.InfoWindow({
         content: contentString11
@@ -295,7 +295,7 @@ var school15 = {lat: 39.731698, lng: -104.921364};
       });
 
 
-var school16 = {lat: 39.769812, lng: -105.014832};
+var school16 = {lat: 39.76981, lng: -105.014834};
     var contentString16 = '<div id="school16" name="Skinner Middle">Name: Skinner Middle<br/>Class: 0<br/>Minority: 73.1<br/>Free/DiscountedLunch: 66.4</div>';
     var infowindow16 = new google.maps.InfoWindow({
         content: contentString16
@@ -331,7 +331,7 @@ var school17 = {lat: 39.696161, lng: -105.038208};
       });
 
 
-var school18 = {lat: 39.804295, lng: -105.020676};
+var school18 = {lat: 39.804293, lng: -105.020678};
     var contentString18 = '<div id="school18" name="Scott Carpenter">Name: Scott Carpenter<br/>Class: 1<br/>Minority: 91<br/>Free/DiscountedLunch: 8</div>';
     var infowindow18 = new google.maps.InfoWindow({
         content: contentString18
@@ -349,7 +349,7 @@ var school18 = {lat: 39.804295, lng: -105.020676};
       });
 
 
-var school19 = {lat: 39.804295, lng: -105.020676};
+var school19 = {lat: 39.804293, lng: -105.020678};
     var contentString19 = '<div id="school19" name="Ranum Middle">Name: Ranum Middle<br/>Class: 0<br/>Minority: 88<br/>Free/DiscountedLunch: 12.5</div>';
     var infowindow19 = new google.maps.InfoWindow({
         content: contentString19
@@ -439,7 +439,7 @@ var school23 = {lat: 39.738037, lng: -105.026519};
       });
 
 
-var school24 = {lat: 39.755812, lng: -104.968091};
+var school24 = {lat: 39.75581, lng: -104.968093};
     var contentString24 = '<div id="school24" name="Cole Middle">Name: Cole Middle<br/>Class: ?<br/>Minority: 94<br/>Free/DiscountedLunch: 82</div>';
     var infowindow24 = new google.maps.InfoWindow({
         content: contentString24
@@ -457,7 +457,7 @@ var school24 = {lat: 39.755812, lng: -104.968091};
       });
 
 
-var school25 = {lat: 39.696161, lng: -105.038208};
+var school25 = {lat: 39.696159, lng: -105.03821};
     var contentString25 = '<div id="school25" name="Abraham Lincoln High School">Name: Abraham Lincoln High School<br/>Class: ?<br/>Minority: 97.7<br/>Free/DiscountedLunch: 93.2</div>';
     var infowindow25 = new google.maps.InfoWindow({
         content: contentString25
@@ -476,7 +476,7 @@ var school25 = {lat: 39.696161, lng: -105.038208};
 
 
 var school26 = {lat: 39.646708, lng: -105.087892};
-    var contentString26 = '<div id="school26" name="D Evelyn Junior School">Name: D Evelyn Junior School<br/>Class: 0<br/>Minority: 31.2<br/>Free/DiscountedLunch: 24.8</div>';
+    var contentString26 = '<div id="school26" name="D Evelyn Junior School">Name: D Evelyn Junior School<br/>Class: 0<br/>Minority: 31.2<br/>Free/DiscountedLunch: 24.8</div>';
     var infowindow26 = new google.maps.InfoWindow({
         content: contentString26
       });
@@ -511,7 +511,7 @@ var school27 = {lat: 39.808654, lng: -104.833788};
       });
 
 
-var school28 = {lat: 39.769812, lng: -105.014832};
+var school28 = {lat: 39.76981, lng: -105.014834};
     var contentString28 = '<div id="school28" name="Academy of Urban Learning">Name: Academy of Urban Learning<br/>Class: 0<br/>Minority: 97.6<br/>Free/DiscountedLunch: 88.1</div>';
     var infowindow28 = new google.maps.InfoWindow({
         content: contentString28
@@ -529,7 +529,7 @@ var school28 = {lat: 39.769812, lng: -105.014832};
       });
 
 
-var school29 = {lat: 39.738037, lng: -105.026519};
+var school29 = {lat: 39.738035, lng: -105.026521};
     var contentString29 = '<div id="school29" name="ACE Community Challenge Charter School (ACE/CCS)">Name: ACE Community Challenge Charter School (ACE/CCS)<br/>Class: ?<br/>Minority: 96.2<br/>Free/DiscountedLunch: 93.2</div>';
     var infowindow29 = new google.maps.InfoWindow({
         content: contentString29
@@ -583,7 +583,7 @@ var school31 = {lat: 39.854992, lng: -105.131743};
       });
 
 
-var school32 = {lat: 39.769812, lng: -105.014832};
+var school32 = {lat: 39.76981, lng: -105.014834};
     var contentString32 = '<div id="school32" name="Escuela Tlatelolco Centro">Name: Escuela Tlatelolco Centro<br/>Class: 0<br/>Minority: 98.3<br/>Free/DiscountedLunch: 84.6</div>';
     var infowindow32 = new google.maps.InfoWindow({
         content: contentString32
@@ -637,7 +637,7 @@ var school34 = {lat: 39.669632, lng: -104.933045};
       });
 
 
-var school35 = {lat: 39.755812, lng: -104.968091};
+var school35 = {lat: 39.75581, lng: -104.968093};
     var contentString35 = '<div id="school35" name="Maunal High School">Name: Maunal High School<br/>Class: 1<br/>Minority: 94.4<br/>Free/DiscountedLunch: 80</div>';
     var infowindow35 = new google.maps.InfoWindow({
         content: contentString35
@@ -673,7 +673,7 @@ var school36 = {lat: 39.616672, lng: -104.874651};
       });
 
 
-var school37 = {lat: 39.675127, lng: -104.968091};
+var school37 = {lat: 39.675125, lng: -104.968093};
     var contentString37 = '<div id="school37" name="Slavens K-8">Name: Slavens K-8<br/>Class: 1<br/>Minority: 17.8<br/>Free/DiscountedLunch: 9.1</div>';
     var infowindow37 = new google.maps.InfoWindow({
         content: contentString37
@@ -691,7 +691,7 @@ var school37 = {lat: 39.675127, lng: -104.968091};
       });
 
 
-var school38 = {lat: 39.731698, lng: -104.921364};
+var school38 = {lat: 39.731696, lng: -104.921366};
     var contentString38 = '<div id="school38" name="Denver School of the Arts">Name: Denver School of the Arts<br/>Class: 0<br/>Minority: 30.4<br/>Free/DiscountedLunch: 10.9</div>';
     var infowindow38 = new google.maps.InfoWindow({
         content: contentString38
@@ -745,7 +745,7 @@ var school40 = {lat: 39.178866, lng: -104.612147};
       });
 
 
-var school41 = {lat: 39.616604, lng: -105.067432};
+var school41 = {lat: 39.616602, lng: -105.067434};
     var contentString41 = '<div id="school41" name="Montessori Peaks Charter Academy">Name: Montessori Peaks Charter Academy<br/>Class: 1<br/>Minority: ?<br/>Free/DiscountedLunch: ?</div>';
     var infowindow41 = new google.maps.InfoWindow({
         content: contentString41
@@ -853,7 +853,7 @@ var school46 = {lat: 39.818249, lng: -105.067432};
       });
 
 
-var school47 = {lat: 39.668252, lng: -105.096661};
+var school47 = {lat: 39.66825, lng: -105.096663};
     var contentString47 = '<div id="school47" name="Carmody">Name: Carmody<br/>Class: 1<br/>Minority: 39.6<br/>Free/DiscountedLunch: 48.6</div>';
     var infowindow47 = new google.maps.InfoWindow({
         content: contentString47
@@ -907,7 +907,7 @@ var school49 = {lat: 39.715877, lng: -105.231183};
       });
 
 
-var school50 = {lat: 39.696161, lng: -105.038208};
+var school50 = {lat: 39.696159, lng: -105.03821};
     var contentString50 = '<div id="school50" name="Abraham Lincoln High School">Name: Abraham Lincoln High School<br/>Class: 2<br/>Minority: 97.7<br/>Free/DiscountedLunch: 93.2</div>';
     var infowindow50 = new google.maps.InfoWindow({
         content: contentString50
@@ -925,7 +925,7 @@ var school50 = {lat: 39.696161, lng: -105.038208};
       });
 
 
-var school51 = {lat: 39.769812, lng: -105.014832};
+var school51 = {lat: 39.76981, lng: -105.014834};
     var contentString51 = '<div id="school51" name="Academy of Urban Learning">Name: Academy of Urban Learning<br/>Class: 0<br/>Minority: 97.6<br/>Free/DiscountedLunch: 88.1</div>';
     var infowindow51 = new google.maps.InfoWindow({
         content: contentString51
@@ -943,7 +943,7 @@ var school51 = {lat: 39.769812, lng: -105.014832};
       });
 
 
-var school52 = {lat: 39.761944, lng: -104.921364};
+var school52 = {lat: 39.761942, lng: -104.921366};
     var contentString52 = '<div id="school52" name="Venture Prep High School">Name: Venture Prep High School<br/>Class: 0<br/>Minority: 93.1<br/>Free/DiscountedLunch: 85.4</div>';
     var infowindow52 = new google.maps.InfoWindow({
         content: contentString52
@@ -961,7 +961,7 @@ var school52 = {lat: 39.761944, lng: -104.921364};
       });
 
 
-var school53 = {lat: 39.692876, lng: -104.909685};
+var school53 = {lat: 39.692874, lng: -104.909687};
     var contentString53 = '<div id="school53" name="George Washington">Name: George Washington<br/>Class: 2<br/>Minority: 71.7<br/>Free/DiscountedLunch: 56.6</div>';
     var infowindow53 = new google.maps.InfoWindow({
         content: contentString53
@@ -979,7 +979,7 @@ var school53 = {lat: 39.692876, lng: -104.909685};
       });
 
 
-var school54 = {lat: 39.669632, lng: -104.933045};
+var school54 = {lat: 39.66963, lng: -104.933047};
     var contentString54 = '<div id="school54" name="Denver Academy">Name: Denver Academy<br/>Class: 2<br/>Minority: ?<br/>Free/DiscountedLunch: 0</div>';
     var infowindow54 = new google.maps.InfoWindow({
         content: contentString54
@@ -997,7 +997,7 @@ var school54 = {lat: 39.669632, lng: -104.933045};
       });
 
 
-var school55 = {lat: 39.755812, lng: -104.968091};
+var school55 = {lat: 39.75581, lng: -104.968093};
     var contentString55 = '<div id="school55" name="Manual High School">Name: Manual High School<br/>Class: 1<br/>Minority: 94.4<br/>Free/DiscountedLunch: 88.9</div>';
     var infowindow55 = new google.maps.InfoWindow({
         content: contentString55
@@ -1033,7 +1033,7 @@ var school56 = {lat: 39.643928, lng: -104.898006};
       });
 
 
-var school57 = {lat: 39.738037, lng: -105.026519};
+var school57 = {lat: 39.738035, lng: -105.026521};
     var contentString57 = '<div id="school57" name="West High School">Name: West High School<br/>Class: 0<br/>Minority: ?<br/>Free/DiscountedLunch: 85.18</div>';
     var infowindow57 = new google.maps.InfoWindow({
         content: contentString57
@@ -1051,7 +1051,7 @@ var school57 = {lat: 39.738037, lng: -105.026519};
       });
 
 
-var school58 = {lat: 39.675127, lng: -104.968091};
+var school58 = {lat: 39.675125, lng: -104.968093};
     var contentString58 = '<div id="school58" name="South High School">Name: South High School<br/>Class: 1<br/>Minority: 73.3<br/>Free/DiscountedLunch: 67.4</div>';
     var infowindow58 = new google.maps.InfoWindow({
         content: contentString58
@@ -1069,7 +1069,7 @@ var school58 = {lat: 39.675127, lng: -104.968091};
       });
 
 
-var school59 = {lat: 39.778133, lng: -104.874651};
+var school59 = {lat: 39.778131, lng: -104.874653};
     var contentString59 = '<div id="school59" name="Stapleton High School">Name: Stapleton High School<br/>Class: 0<br/>Minority: 70.7<br/>Free/DiscountedLunch: 53.3</div>';
     var infowindow59 = new google.maps.InfoWindow({
         content: contentString59
@@ -1087,7 +1087,7 @@ var school59 = {lat: 39.778133, lng: -104.874651};
       });
 
 
-var school60 = {lat: 39.878664, lng: -104.682105};
+var school60 = {lat: 39.878662, lng: -104.682107};
     var contentString60 = '<div id="school60" name="Green Valley Ranch High School">Name: Green Valley Ranch High School<br/>Class: 0<br/>Minority: 90.2<br/>Free/DiscountedLunch: 67.6</div>';
     var infowindow60 = new google.maps.InfoWindow({
         content: contentString60
@@ -1105,7 +1105,7 @@ var school60 = {lat: 39.878664, lng: -104.682105};
       });
 
 
-var school61 = {lat: 39.755812, lng: -104.968091};
+var school61 = {lat: 39.75581, lng: -104.968093};
     var contentString61 = '<div id="school61" name="Cole High School">Name: Cole High School<br/>Class: 0<br/>Minority: 86.8<br/>Free/DiscountedLunch: 76.4</div>';
     var infowindow61 = new google.maps.InfoWindow({
         content: contentString61
@@ -1123,7 +1123,7 @@ var school61 = {lat: 39.755812, lng: -104.968091};
       });
 
 
-var school62 = {lat: 39.732746, lng: -104.971012};
+var school62 = {lat: 39.732744, lng: -104.971014};
     var contentString62 = '<div id="school62" name="Denver Center for 21st Learning At Wyman">Name: Denver Center for 21st Learning At Wyman<br/>Class: ?<br/>Minority: 92.3<br/>Free/DiscountedLunch: 88.1</div>';
     var infowindow62 = new google.maps.InfoWindow({
         content: contentString62
@@ -1141,7 +1141,7 @@ var school62 = {lat: 39.732746, lng: -104.971012};
       });
 
 
-var school63 = {lat: 39.731698, lng: -104.921364};
+var school63 = {lat: 39.731696, lng: -104.921366};
     var contentString63 = '<div id="school63" name="Denver School of the Arts">Name: Denver School of the Arts<br/>Class: ?<br/>Minority: 29.3<br/>Free/DiscountedLunch: 11.8</div>';
     var infowindow63 = new google.maps.InfoWindow({
         content: contentString63
@@ -1159,7 +1159,7 @@ var school63 = {lat: 39.731698, lng: -104.921364};
       });
 
 
-var school64 = {lat: 39.738037, lng: -105.026519};
+var school64 = {lat: 39.738035, lng: -105.026521};
     var contentString64 = '<div id="school64" name="Denver Center for International Studies">Name: Denver Center for International Studies<br/>Class: 0<br/>Minority: 77.7<br/>Free/DiscountedLunch: 54.9</div>';
     var infowindow64 = new google.maps.InfoWindow({
         content: contentString64
@@ -1195,7 +1195,7 @@ var school65 = {lat: 39.747363, lng: -105.108354};
       });
 
 
-var school66 = {lat: 39.854992, lng: -105.131743};
+var school66 = {lat: 39.85499, lng: -105.131745};
     var contentString66 = '<div id="school66" name="Ralston Valley">Name: Ralston Valley<br/>Class: 3<br/>Minority: 18<br/>Free/DiscountedLunch: 10</div>';
     var infowindow66 = new google.maps.InfoWindow({
         content: contentString66
@@ -1231,7 +1231,7 @@ var school67 = {lat: 39.816302, lng: -105.120048};
       });
 
 
-var school68 = {lat: 39.816302, lng: -105.120048};
+var school68 = {lat: 39.8163, lng: -105.12005};
     var contentString68 = '<div id="school68" name="Arvada West">Name: Arvada West<br/>Class: 1<br/>Minority: 26<br/>Free/DiscountedLunch: 29</div>';
     var infowindow68 = new google.maps.InfoWindow({
         content: contentString68
@@ -1249,7 +1249,7 @@ var school68 = {lat: 39.816302, lng: -105.120048};
       });
 
 
-var school69 = {lat: 39.669632, lng: -104.933045};
+var school69 = {lat: 39.66963, lng: -104.933047};
     var contentString69 = '<div id="school69" name="Rocky Mountain School of Expeditionary learning">Name: Rocky Mountain School of Expeditionary learning<br/>Class: 1<br/>Minority: 25<br/>Free/DiscountedLunch: 0</div>';
     var infowindow69 = new google.maps.InfoWindow({
         content: contentString69
@@ -1267,7 +1267,7 @@ var school69 = {lat: 39.669632, lng: -104.933045};
       });
 
 
-var school70 = {lat: 39.647845, lng: -105.04113};
+var school70 = {lat: 39.647843, lng: -105.041132};
     var contentString70 = '<div id="school70" name="SOAR Academy">Name: SOAR Academy<br/>Class: ?<br/>Minority: 81<br/>Free/DiscountedLunch: 50</div>';
     var infowindow70 = new google.maps.InfoWindow({
         content: contentString70
@@ -1285,7 +1285,7 @@ var school70 = {lat: 39.647845, lng: -105.04113};
       });
 
 
-var school71 = {lat: 39.675127, lng: -104.968091};
+var school71 = {lat: 39.675125, lng: -104.968093};
     var contentString71 = '<div id="school71" name=""Accelerated Schools, Denver"">Name: "Accelerated Schools, Denver"<br/>Class: 3<br/>Minority: ?<br/>Free/DiscountedLunch: ?</div>';
     var infowindow71 = new google.maps.InfoWindow({
         content: contentString71
@@ -1321,7 +1321,7 @@ var school72 = {lat: 39.775256, lng: -105.049897};
       });
 
 
-var school73 = {lat: 39.738037, lng: -105.026519};
+var school73 = {lat: 39.738035, lng: -105.026521};
     var contentString73 = '<div id="school73" name="Beth Jacobs">Name: Beth Jacobs<br/>Class: 1<br/>Minority: ?<br/>Free/DiscountedLunch: 0</div>';
     var infowindow73 = new google.maps.InfoWindow({
         content: contentString73
@@ -1375,7 +1375,7 @@ var school75 = {lat: 39.535023, lng: -105.149287};
       });
 
 
-var school76 = {lat: 39.755812, lng: -104.968091};
+var school76 = {lat: 39.75581, lng: -104.968093};
     var contentString76 = '<div id="school76" name="Bruce Randolph School">Name: Bruce Randolph School<br/>Class: 0<br/>Minority: 99<br/>Free/DiscountedLunch: 96</div>';
     var infowindow76 = new google.maps.InfoWindow({
         content: contentString76
@@ -1393,7 +1393,7 @@ var school76 = {lat: 39.755812, lng: -104.968091};
       });
 
 
-var school77 = {lat: 39.769812, lng: -105.014832};
+var school77 = {lat: 39.76981, lng: -105.014834};
     var contentString77 = '<div id="school77" name="Fred N Thomas Career Education Center">Name: Fred N Thomas Career Education Center<br/>Class: ?<br/>Minority: ?<br/>Free/DiscountedLunch: 0</div>';
     var infowindow77 = new google.maps.InfoWindow({
         content: contentString77
@@ -1411,7 +1411,7 @@ var school77 = {lat: 39.769812, lng: -105.014832};
       });
 
 
-var school78 = {lat: 39.808654, lng: -104.833788};
+var school78 = {lat: 39.808652, lng: -104.83379};
     var contentString78 = '<div id="school78" name="Change Christian Academy">Name: Change Christian Academy<br/>Class: ?<br/>Minority: ?<br/>Free/DiscountedLunch: 0</div>';
     var infowindow78 = new google.maps.InfoWindow({
         content: contentString78
@@ -1429,7 +1429,7 @@ var school78 = {lat: 39.808654, lng: -104.833788};
       });
 
 
-var school79 = {lat: 39.808654, lng: -104.833788};
+var school79 = {lat: 39.808652, lng: -104.83379};
     var contentString79 = '<div id="school79" name="Collegiate Prep Academy">Name: Collegiate Prep Academy<br/>Class: ?<br/>Minority: 96.9<br/>Free/DiscountedLunch: 73.8</div>';
     var infowindow79 = new google.maps.InfoWindow({
         content: contentString79
@@ -1465,7 +1465,7 @@ var school80 = {lat: 39.684924, lng: -105.160984};
       });
 
 
-var school81 = {lat: 39.854992, lng: -105.131743};
+var school81 = {lat: 39.85499, lng: -105.131745};
     var contentString81 = '<div id="school81" name="Pomona">Name: Pomona<br/>Class: 1<br/>Minority: 34<br/>Free/DiscountedLunch: 36</div>';
     var infowindow81 = new google.maps.InfoWindow({
         content: contentString81
@@ -1483,7 +1483,7 @@ var school81 = {lat: 39.854992, lng: -105.131743};
       });
 
 
-var school82 = {lat: 39.738037, lng: -105.026519};
+var school82 = {lat: 39.738035, lng: -105.026521};
     var contentString82 = '<div id="school82" name="Colorado High School">Name: Colorado High School<br/>Class: 0<br/>Minority: 91.3<br/>Free/DiscountedLunch: 89</div>';
     var infowindow82 = new google.maps.InfoWindow({
         content: contentString82
@@ -1519,7 +1519,7 @@ var school83 = {lat: 39.777584, lng: -105.108354};
       });
 
 
-var school84 = {lat: 39.647845, lng: -105.04113};
+var school84 = {lat: 39.647843, lng: -105.041132};
     var contentString84 = '<div id="school84" name="Southwest Early College">Name: Southwest Early College<br/>Class: 0<br/>Minority: 94.7<br/>Free/DiscountedLunch: 75.6</div>';
     var infowindow84 = new google.maps.InfoWindow({
         content: contentString84
@@ -1555,7 +1555,7 @@ var school85 = {lat: 39.727102, lng: -104.956408};
       });
 
 
-var school86 = {lat: 39.808654, lng: -104.833788};
+var school86 = {lat: 39.808652, lng: -104.83379};
     var contentString86 = '<div id="school86" name="Denver Center for International Studies at Montbello">Name: Denver Center for International Studies at Montbello<br/>Class: 0<br/>Minority: 97.3<br/>Free/DiscountedLunch: 85.4</div>';
     var infowindow86 = new google.maps.InfoWindow({
         content: contentString86
@@ -1591,7 +1591,7 @@ var school87 = {lat: 39.509975, lng: -105.336536};
       });
 
 
-var school88 = {lat: 39.535023, lng: -105.149287};
+var school88 = {lat: 39.535021, lng: -105.149289};
     var contentString88 = '<div id="school88" name="Dakota Ridge">Name: Dakota Ridge<br/>Class: 3<br/>Minority: 21<br/>Free/DiscountedLunch: 17</div>';
     var infowindow88 = new google.maps.InfoWindow({
         content: contentString88
@@ -1681,7 +1681,7 @@ var school92 = {lat: 39.754247, lng: -104.7871};
       });
 
 
-var school93 = {lat: 39.754247, lng: -104.7871};
+var school93 = {lat: 39.754245, lng: -104.787102};
     var contentString93 = '<div id="school93" name="Crossroads Center High School">Name: Crossroads Center High School<br/>Class: 0<br/>Minority: ?<br/>Free/DiscountedLunch: ?</div>';
     var infowindow93 = new google.maps.InfoWindow({
         content: contentString93
@@ -1699,7 +1699,7 @@ var school93 = {lat: 39.754247, lng: -104.7871};
       });
 
 
-var school94 = {lat: 39.754247, lng: -104.7871};
+var school94 = {lat: 39.754245, lng: -104.787102};
     var contentString94 = '<div id="school94" name="Futures Academy High School">Name: Futures Academy High School<br/>Class: 0<br/>Minority: 90<br/>Free/DiscountedLunch: ?</div>';
     var infowindow94 = new google.maps.InfoWindow({
         content: contentString94
@@ -1717,7 +1717,7 @@ var school94 = {lat: 39.754247, lng: -104.7871};
       });
 
 
-var school95 = {lat: 39.754247, lng: -104.7871};
+var school95 = {lat: 39.754245, lng: -104.787102};
     var contentString95 = '<div id="school95" name="William Smith High School">Name: William Smith High School<br/>Class: 0<br/>Minority: 76.3<br/>Free/DiscountedLunch: 54.6</div>';
     var infowindow95 = new google.maps.InfoWindow({
         content: contentString95
@@ -1753,7 +1753,7 @@ var school96 = {lat: 39.63, lng: -104.8};
       });
 
 
-var school97 = {lat: 39.693709, lng: -104.7871};
+var school97 = {lat: 39.693707, lng: -104.787102};
     var contentString97 = '<div id="school97" name="Global Villiage Middle School">Name: Global Villiage Middle School<br/>Class: 0<br/>Minority: 84.7<br/>Free/DiscountedLunch: 59.1</div>';
     var infowindow97 = new google.maps.InfoWindow({
         content: contentString97
@@ -1771,7 +1771,7 @@ var school97 = {lat: 39.693709, lng: -104.7871};
       });
 
 
-var school98 = {lat: 39.739331, lng: -104.862975};
+var school98 = {lat: 39.739329, lng: -104.862977};
     var contentString98 = '<div id="school98" name="Aurora Central">Name: Aurora Central<br/>Class: 1<br/>Minority: 95.5<br/>Free/DiscountedLunch: 69.8</div>';
     var infowindow98 = new google.maps.InfoWindow({
         content: contentString98
@@ -1789,7 +1789,7 @@ var school98 = {lat: 39.739331, lng: -104.862975};
       });
 
 
-var school99 = {lat: 39.739331, lng: -104.862975};
+var school99 = {lat: 39.739329, lng: -104.862977};
     var contentString99 = '<div id="school99" name="Aurora West College Preparatory Academy">Name: Aurora West College Preparatory Academy<br/>Class: 0<br/>Minority: 94.9<br/>Free/DiscountedLunch: 77.7</div>';
     var infowindow99 = new google.maps.InfoWindow({
         content: contentString99
@@ -1807,7 +1807,7 @@ var school99 = {lat: 39.739331, lng: -104.862975};
       });
 
 
-var school100 = {lat: 39.702022, lng: -104.839625};
+var school100 = {lat: 39.70202, lng: -104.839627};
     var contentString100 = '<div id="school100" name="Gateway">Name: Gateway<br/>Class: 1<br/>Minority: 85.1<br/>Free/DiscountedLunch: 60</div>';
     var infowindow100 = new google.maps.InfoWindow({
         content: contentString100
@@ -1825,7 +1825,7 @@ var school100 = {lat: 39.702022, lng: -104.839625};
       });
 
 
-var school101 = {lat: 39.739331, lng: -104.862975};
+var school101 = {lat: 39.739329, lng: -104.862977};
     var contentString101 = '<div id="school101" name="Aurora Academy">Name: Aurora Academy<br/>Class: ?<br/>Minority: 73.3<br/>Free/DiscountedLunch: 52.9</div>';
     var infowindow101 = new google.maps.InfoWindow({
         content: contentString101
@@ -1843,7 +1843,7 @@ var school101 = {lat: 39.739331, lng: -104.862975};
       });
 
 
-var school102 = {lat: 39.754247, lng: -104.7871};
+var school102 = {lat: 39.754245, lng: -104.787102};
     var contentString102 = '<div id="school102" name="William Smith">Name: William Smith<br/>Class: 0<br/>Minority: 76.3<br/>Free/DiscountedLunch: 54.6</div>';
     var infowindow102 = new google.maps.InfoWindow({
         content: contentString102
@@ -1897,7 +1897,7 @@ var school104 = {lat: 39.656342, lng: -104.763762};
       });
 
 
-var school105 = {lat: 39.754247, lng: -104.7871};
+var school105 = {lat: 39.754245, lng: -104.787102};
     var contentString105 = '<div id="school105" name="Hinkley">Name: Hinkley<br/>Class: ?<br/>Minority: 91.4<br/>Free/DiscountedLunch: 71.4</div>';
     var infowindow105 = new google.maps.InfoWindow({
         content: contentString105
@@ -1915,7 +1915,7 @@ var school105 = {lat: 39.754247, lng: -104.7871};
       });
 
 
-var school106 = {lat: 39.754247, lng: -104.7871};
+var school106 = {lat: 39.754245, lng: -104.787102};
     var contentString106 = '<div id="school106" name="South Middle School">Name: South Middle School<br/>Class: ?<br/>Minority: 91.6<br/>Free/DiscountedLunch: 98.3</div>';
     var infowindow106 = new google.maps.InfoWindow({
         content: contentString106
@@ -1933,7 +1933,7 @@ var school106 = {lat: 39.754247, lng: -104.7871};
       });
 
 
-var school107 = {lat: 39.739331, lng: -104.862975};
+var school107 = {lat: 39.739329, lng: -104.862977};
     var contentString107 = '<div id="school107" name="North Middle School Health Sciences & Technology Campus">Name: North Middle School Health Sciences & Technology Campus<br/>Class: ?<br/>Minority: 99.5<br/>Free/DiscountedLunch: 85.6</div>';
     var infowindow107 = new google.maps.InfoWindow({
         content: contentString107
@@ -1951,7 +1951,7 @@ var school107 = {lat: 39.739331, lng: -104.862975};
       });
 
 
-var school108 = {lat: 39.656342, lng: -104.763762};
+var school108 = {lat: 39.65634, lng: -104.763764};
     var contentString108 = '<div id="school108" name="Mrachek Middle School">Name: Mrachek Middle School<br/>Class: ?<br/>Minority: 98.9<br/>Free/DiscountedLunch: 65.6</div>';
     var infowindow108 = new google.maps.InfoWindow({
         content: contentString108
@@ -1969,7 +1969,7 @@ var school108 = {lat: 39.656342, lng: -104.763762};
       });
 
 
-var school109 = {lat: 39.656342, lng: -104.763762};
+var school109 = {lat: 39.65634, lng: -104.763764};
     var contentString109 = '<div id="school109" name="Columbia Middle School">Name: Columbia Middle School<br/>Class: 0<br/>Minority: 82.4<br/>Free/DiscountedLunch: 58.8</div>';
     var infowindow109 = new google.maps.InfoWindow({
         content: contentString109
@@ -1987,7 +1987,7 @@ var school109 = {lat: 39.656342, lng: -104.763762};
       });
 
 
-var school110 = {lat: 39.754247, lng: -104.7871};
+var school110 = {lat: 39.754245, lng: -104.787102};
     var contentString110 = '<div id="school110" name="East Middle School">Name: East Middle School<br/>Class: 0<br/>Minority: 99.1<br/>Free/DiscountedLunch: 83.9</div>';
     var infowindow110 = new google.maps.InfoWindow({
         content: contentString110
@@ -2005,7 +2005,7 @@ var school110 = {lat: 39.754247, lng: -104.7871};
       });
 
 
-var school111 = {lat: 39.702022, lng: -104.839625};
+var school111 = {lat: 39.70202, lng: -104.839627};
     var contentString111 = '<div id="school111" name="Aurora Hills Middle School">Name: Aurora Hills Middle School<br/>Class: ?<br/>Minority: 89.3<br/>Free/DiscountedLunch: 75.6</div>';
     var infowindow111 = new google.maps.InfoWindow({
         content: contentString111
@@ -2023,7 +2023,7 @@ var school111 = {lat: 39.702022, lng: -104.839625};
       });
 
 
-var school112 = {lat: 39.702022, lng: -104.839625};
+var school112 = {lat: 39.70202, lng: -104.839627};
     var contentString112 = '<div id="school112" name="Aurora West College Prep Academy Middle School">Name: Aurora West College Prep Academy Middle School<br/>Class: ?<br/>Minority: 100<br/>Free/DiscountedLunch: 77.7</div>';
     var infowindow112 = new google.maps.InfoWindow({
         content: contentString112
@@ -2077,7 +2077,7 @@ var school114 = {lat: 40.000538, lng: -105.20778};
       });
 
 
-var school115 = {lat: 40.000538, lng: -105.20778};
+var school115 = {lat: 40.000536, lng: -105.207782};
     var contentString115 = '<div id="school115" name="Boulder Explore">Name: Boulder Explore<br/>Class: 0<br/>Minority: 100<br/>Free/DiscountedLunch: ?</div>';
     var infowindow115 = new google.maps.InfoWindow({
         content: contentString115
@@ -2131,7 +2131,7 @@ var school117 = {lat: 40.045474, lng: -105.283851};
       });
 
 
-var school118 = {lat: 40.045474, lng: -105.283851};
+var school118 = {lat: 40.045472, lng: -105.283853};
     var contentString118 = '<div id="school118" name="Casey Middle School">Name: Casey Middle School<br/>Class: ?<br/>Minority: 47.6<br/>Free/DiscountedLunch: 40.7</div>';
     var infowindow118 = new google.maps.InfoWindow({
         content: contentString118
@@ -2167,7 +2167,7 @@ var school119 = {lat: 39.943447, lng: -105.18438};
       });
 
 
-var school120 = {lat: 39.943447, lng: -105.18438};
+var school120 = {lat: 39.943445, lng: -105.184382};
     var contentString120 = '<div id="school120" name="Eldorado K-8 School">Name: Eldorado K-8 School<br/>Class: ?<br/>Minority: 27.8<br/>Free/DiscountedLunch: 5.6</div>';
     var infowindow120 = new google.maps.InfoWindow({
         content: contentString120
@@ -2203,7 +2203,7 @@ var school121 = {lat: 39.979999, lng: -105.248737};
       });
 
 
-var school122 = {lat: 40.000538, lng: -105.20778};
+var school122 = {lat: 40.000536, lng: -105.207782};
     var contentString122 = '<div id="school122" name="Horizons K-8 School">Name: Horizons K-8 School<br/>Class: 0<br/>Minority: 15<br/>Free/DiscountedLunch: 7.2</div>';
     var infowindow122 = new google.maps.InfoWindow({
         content: contentString122
@@ -2221,7 +2221,7 @@ var school122 = {lat: 40.000538, lng: -105.20778};
       });
 
 
-var school123 = {lat: 39.943447, lng: -105.18438};
+var school123 = {lat: 39.943445, lng: -105.184382};
     var contentString123 = '<div id="school123" name="Louisville Middle School">Name: Louisville Middle School<br/>Class: 0<br/>Minority: 22.7<br/>Free/DiscountedLunch: 12.1</div>';
     var infowindow123 = new google.maps.InfoWindow({
         content: contentString123
@@ -2239,7 +2239,7 @@ var school123 = {lat: 39.943447, lng: -105.18438};
       });
 
 
-var school124 = {lat: 40.000538, lng: -105.20778};
+var school124 = {lat: 40.000536, lng: -105.207782};
     var contentString124 = '<div id="school124" name="Manhattan School of Arts and Academics">Name: Manhattan School of Arts and Academics<br/>Class: 0<br/>Minority: 36.3<br/>Free/DiscountedLunch: 29.1</div>';
     var infowindow124 = new google.maps.InfoWindow({
         content: contentString124
@@ -2257,7 +2257,7 @@ var school124 = {lat: 40.000538, lng: -105.20778};
       });
 
 
-var school125 = {lat: 39.943447, lng: -105.18438};
+var school125 = {lat: 39.943445, lng: -105.184382};
     var contentString125 = '<div id="school125" name="Monarch K-8 School">Name: Monarch K-8 School<br/>Class: 1<br/>Minority: 25.9<br/>Free/DiscountedLunch: 11</div>';
     var infowindow125 = new google.maps.InfoWindow({
         content: contentString125
@@ -2293,7 +2293,7 @@ var school126 = {lat: 40.011812, lng: -105.641253};
       });
 
 
-var school127 = {lat: 39.996064, lng: -105.090815};
+var school127 = {lat: 39.996062, lng: -105.090817};
     var contentString127 = '<div id="school127" name="Peak to Peak Charter - Middle School">Name: Peak to Peak Charter - Middle School<br/>Class: ?<br/>Minority: 27.1<br/>Free/DiscountedLunch: 7.2</div>';
     var infowindow127 = new google.maps.InfoWindow({
         content: contentString127
@@ -2311,7 +2311,7 @@ var school127 = {lat: 39.996064, lng: -105.090815};
       });
 
 
-var school128 = {lat: 40.000538, lng: -105.20778};
+var school128 = {lat: 40.000536, lng: -105.207782};
     var contentString128 = '<div id="school128" name="Platt CHOICE Program">Name: Platt CHOICE Program<br/>Class: ?<br/>Minority: 20.1<br/>Free/DiscountedLunch: 10.7</div>';
     var infowindow128 = new google.maps.InfoWindow({
         content: contentString128
@@ -2329,7 +2329,7 @@ var school128 = {lat: 40.000538, lng: -105.20778};
       });
 
 
-var school129 = {lat: 39.979999, lng: -105.248737};
+var school129 = {lat: 39.979997, lng: -105.248739};
     var contentString129 = '<div id="school129" name="Platt Middle School">Name: Platt Middle School<br/>Class: 1<br/>Minority: 20.1<br/>Free/DiscountedLunch: 10.7</div>';
     var infowindow129 = new google.maps.InfoWindow({
         content: contentString129
@@ -2347,7 +2347,7 @@ var school129 = {lat: 39.979999, lng: -105.248737};
       });
 
 
-var school130 = {lat: 39.979999, lng: -105.248737};
+var school130 = {lat: 39.979997, lng: -105.248739};
     var contentString130 = '<div id="school130" name="Southern Hills Middle School">Name: Southern Hills Middle School<br/>Class: 0<br/>Minority: 17<br/>Free/DiscountedLunch: 7</div>';
     var infowindow130 = new google.maps.InfoWindow({
         content: contentString130
@@ -2365,7 +2365,7 @@ var school130 = {lat: 39.979999, lng: -105.248737};
       });
 
 
-var school131 = {lat: 39.979999, lng: -105.248737};
+var school131 = {lat: 39.979997, lng: -105.248739};
     var contentString131 = '<div id="school131" name="Summit Charter Middle School">Name: Summit Charter Middle School<br/>Class: 5<br/>Minority: 39<br/>Free/DiscountedLunch: 5.7</div>';
     var infowindow131 = new google.maps.InfoWindow({
         content: contentString131
@@ -2401,7 +2401,7 @@ var school132 = {lat: 40.038629, lng: -105.371668};
       });
 
 
-var school133 = {lat: 40.038629, lng: -105.371668};
+var school133 = {lat: 40.038627, lng: -105.37167};
     var contentString133 = '<div id="school133" name="Boulder High School">Name: Boulder High School<br/>Class: 7<br/>Minority: 30.5<br/>Free/DiscountedLunch: 21.6</div>';
     var infowindow133 = new google.maps.InfoWindow({
         content: contentString133
@@ -2437,7 +2437,7 @@ var school134 = {lat: 39.739236, lng: -104.990251};
       });
 
 
-var school135 = {lat: 40.000538, lng: -105.20778};
+var school135 = {lat: 40.000536, lng: -105.207782};
     var contentString135 = '<div id="school135" name="Broomfield High School">Name: Broomfield High School<br/>Class: 1<br/>Minority: 25.3<br/>Free/DiscountedLunch: 13.9</div>';
     var infowindow135 = new google.maps.InfoWindow({
         content: contentString135
@@ -2455,7 +2455,7 @@ var school135 = {lat: 40.000538, lng: -105.20778};
       });
 
 
-var school136 = {lat: 39.996064, lng: -105.090815};
+var school136 = {lat: 39.996062, lng: -105.090817};
     var contentString136 = '<div id="school136" name="Career and Technical Education Center">Name: Career and Technical Education Center<br/>Class: 2<br/>Minority: 68.5<br/>Free/DiscountedLunch: 62</div>';
     var infowindow136 = new google.maps.InfoWindow({
         content: contentString136
@@ -2473,7 +2473,7 @@ var school136 = {lat: 39.996064, lng: -105.090815};
       });
 
 
-var school137 = {lat: 39.996064, lng: -105.090815};
+var school137 = {lat: 39.996062, lng: -105.090817};
     var contentString137 = '<div id="school137" name="Centarus High School">Name: Centarus High School<br/>Class: 8<br/>Minority: 37.4<br/>Free/DiscountedLunch: 29.8</div>';
     var infowindow137 = new google.maps.InfoWindow({
         content: contentString137
@@ -2491,7 +2491,7 @@ var school137 = {lat: 39.996064, lng: -105.090815};
       });
 
 
-var school138 = {lat: 39.979999, lng: -105.248737};
+var school138 = {lat: 39.979997, lng: -105.248739};
     var contentString138 = '<div id="school138" name="Fairview High School">Name: Fairview High School<br/>Class: ?<br/>Minority: 25.6<br/>Free/DiscountedLunch: 9.3</div>';
     var infowindow138 = new google.maps.InfoWindow({
         content: contentString138
@@ -2509,7 +2509,7 @@ var school138 = {lat: 39.979999, lng: -105.248737};
       });
 
 
-var school139 = {lat: 39.943447, lng: -105.18438};
+var school139 = {lat: 39.943445, lng: -105.184382};
     var contentString139 = '<div id="school139" name="Justice High School">Name: Justice High School<br/>Class: 0<br/>Minority: ?<br/>Free/DiscountedLunch: ?</div>';
     var infowindow139 = new google.maps.InfoWindow({
         content: contentString139
@@ -2527,7 +2527,7 @@ var school139 = {lat: 39.943447, lng: -105.18438};
       });
 
 
-var school140 = {lat: 39.943447, lng: -105.18438};
+var school140 = {lat: 39.943445, lng: -105.184382};
     var contentString140 = '<div id="school140" name="Monarch High School">Name: Monarch High School<br/>Class: 0<br/>Minority: 19.5<br/>Free/DiscountedLunch: 8.3</div>';
     var infowindow140 = new google.maps.InfoWindow({
         content: contentString140
@@ -2545,7 +2545,7 @@ var school140 = {lat: 39.943447, lng: -105.18438};
       });
 
 
-var school141 = {lat: 40.011812, lng: -105.641253};
+var school141 = {lat: 40.01181, lng: -105.641255};
     var contentString141 = '<div id="school141" name="Nederland Middle-Senior High School">Name: Nederland Middle-Senior High School<br/>Class: 5<br/>Minority: 16.9<br/>Free/DiscountedLunch: 26.2</div>';
     var infowindow141 = new google.maps.InfoWindow({
         content: contentString141
@@ -2563,7 +2563,7 @@ var school141 = {lat: 40.011812, lng: -105.641253};
       });
 
 
-var school142 = {lat: 40.038629, lng: -105.371668};
+var school142 = {lat: 40.038627, lng: -105.37167};
     var contentString142 = '<div id="school142" name="New Vista High School">Name: New Vista High School<br/>Class: 0<br/>Minority: 29.9<br/>Free/DiscountedLunch: 26.8</div>';
     var infowindow142 = new google.maps.InfoWindow({
         content: contentString142
@@ -2581,7 +2581,7 @@ var school142 = {lat: 40.038629, lng: -105.371668};
       });
 
 
-var school143 = {lat: 39.996064, lng: -105.090815};
+var school143 = {lat: 39.996062, lng: -105.090817};
     var contentString143 = '<div id="school143" name="Peak to Peak">Name: Peak to Peak<br/>Class: 5<br/>Minority: 27.1<br/>Free/DiscountedLunch: 7.2</div>';
     var infowindow143 = new google.maps.InfoWindow({
         content: contentString143
@@ -2617,7 +2617,7 @@ var school144 = {lat: 39.581507, lng: -104.717095};
       });
 
 
-var school145 = {lat: 39.616672, lng: -104.874651};
+var school145 = {lat: 39.61667, lng: -104.874653};
     var contentString145 = '<div id="school145" name="Cherry Creek High School">Name: Cherry Creek High School<br/>Class: 4<br/>Minority: 28.6<br/>Free/DiscountedLunch: 10.6</div>';
     var infowindow145 = new google.maps.InfoWindow({
         content: contentString145
@@ -2653,7 +2653,7 @@ var school146 = {lat: 39.628816, lng: -104.781265};
       });
 
 
-var school147 = {lat: 39.581507, lng: -104.717095};
+var school147 = {lat: 39.581505, lng: -104.717097};
     var contentString147 = '<div id="school147" name="Grandview High School">Name: Grandview High School<br/>Class: 6<br/>Minority: 39.5<br/>Free/DiscountedLunch: 17.6</div>';
     var infowindow147 = new google.maps.InfoWindow({
         content: contentString147
@@ -2671,7 +2671,7 @@ var school147 = {lat: 39.581507, lng: -104.717095};
       });
 
 
-var school148 = {lat: 39.702022, lng: -104.839625};
+var school148 = {lat: 39.70202, lng: -104.839627};
     var contentString148 = '<div id="school148" name="Overland High School / Institute of Science & Technology">Name: Overland High School / Institute of Science & Technology<br/>Class: 11<br/>Minority: 75.7<br/>Free/DiscountedLunch: 51.9</div>';
     var infowindow148 = new google.maps.InfoWindow({
         content: contentString148
@@ -2689,7 +2689,7 @@ var school148 = {lat: 39.702022, lng: -104.839625};
       });
 
 
-var school149 = {lat: 39.628816, lng: -104.781265};
+var school149 = {lat: 39.628814, lng: -104.781267};
     var contentString149 = '<div id="school149" name="Smoky Hill High School">Name: Smoky Hill High School<br/>Class: 0<br/>Minority: 50<br/>Free/DiscountedLunch: 27.4</div>';
     var infowindow149 = new google.maps.InfoWindow({
         content: contentString149
@@ -2705,6 +2705,7 @@ var school149 = {lat: 39.628816, lng: -104.781265};
       });   marker149.addListener('click', function() {
         infowindow149.open(map, marker149);
       });
+
 
 var school150 = {lat: 40.007740, lng: -105.255533};
     var contentString150 = '<div id="credits">CS Learning and Kids<br/>Credits: Ben Shapiro<br/>Abhijit Suresh<br/>Layne Hubbard<br/>Alex Gendreau<br/>Matt Bubernak<br/>';

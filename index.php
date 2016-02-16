@@ -25,7 +25,7 @@
         center: denver
       });
 
-  var school1 = {lat: 39.616604, lng: -105.067432};
+ var school1 = {lat: 39.616604, lng: -105.067432};
     var contentString1 = '<div id="school1" name="Grant Ranch Middle Ranch">Name: Grant Ranch Middle Ranch<br/>Class: 1<br/>Minority: 63<br/>Free/DiscountedLunch: 52</div>';
     var infowindow1 = new google.maps.InfoWindow({
         content: contentString1
@@ -2705,6 +2705,8 @@ var school149 = {lat: 39.628814, lng: -104.781267};
       });   marker149.addListener('click', function() {
         infowindow149.open(map, marker149);
       });
+
+
 
 
 var school150 = {lat: 40.007740, lng: -105.255533};
